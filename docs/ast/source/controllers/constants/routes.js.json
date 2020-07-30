@@ -1,0 +1,3771 @@
+{
+  "type": "File",
+  "start": 0,
+  "end": 630,
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 21,
+      "column": 0
+    }
+  },
+  "program": {
+    "type": "Program",
+    "start": 0,
+    "end": 630,
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 21,
+        "column": 0
+      }
+    },
+    "sourceType": "module",
+    "body": [
+      {
+        "type": "ExportNamedDeclaration",
+        "start": 0,
+        "end": 26,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 26
+          }
+        },
+        "specifiers": [],
+        "source": null,
+        "declaration": {
+          "type": "VariableDeclaration",
+          "start": 7,
+          "end": 26,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 7
+            },
+            "end": {
+              "line": 1,
+              "column": 26
+            }
+          },
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 13,
+              "end": 26,
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 13
+                },
+                "end": {
+                  "line": 1,
+                  "column": 26
+                }
+              },
+              "id": {
+                "type": "Identifier",
+                "start": 13,
+                "end": 20,
+                "loc": {
+                  "start": {
+                    "line": 1,
+                    "column": 13
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 20
+                  },
+                  "identifierName": "LANDING"
+                },
+                "name": "LANDING"
+              },
+              "init": {
+                "type": "StringLiteral",
+                "start": 23,
+                "end": 26,
+                "loc": {
+                  "start": {
+                    "line": 1,
+                    "column": 23
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 26
+                  }
+                },
+                "extra": {
+                  "rawValue": "/",
+                  "raw": "'/'"
+                },
+                "value": "/"
+              }
+            }
+          ],
+          "kind": "const",
+          "leadingComments": [],
+          "trailingComments": []
+        }
+      },
+      {
+        "type": "ExportNamedDeclaration",
+        "start": 27,
+        "end": 59,
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 0
+          },
+          "end": {
+            "line": 2,
+            "column": 32
+          }
+        },
+        "specifiers": [],
+        "source": null,
+        "declaration": {
+          "type": "VariableDeclaration",
+          "start": 34,
+          "end": 59,
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 7
+            },
+            "end": {
+              "line": 2,
+              "column": 32
+            }
+          },
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 40,
+              "end": 59,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 13
+                },
+                "end": {
+                  "line": 2,
+                  "column": 32
+                }
+              },
+              "id": {
+                "type": "Identifier",
+                "start": 40,
+                "end": 47,
+                "loc": {
+                  "start": {
+                    "line": 2,
+                    "column": 13
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 20
+                  },
+                  "identifierName": "SIGN_UP"
+                },
+                "name": "SIGN_UP"
+              },
+              "init": {
+                "type": "StringLiteral",
+                "start": 50,
+                "end": 59,
+                "loc": {
+                  "start": {
+                    "line": 2,
+                    "column": 23
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 32
+                  }
+                },
+                "extra": {
+                  "rawValue": "/signup",
+                  "raw": "'/signup'"
+                },
+                "value": "/signup"
+              }
+            }
+          ],
+          "kind": "const",
+          "leadingComments": [],
+          "trailingComments": []
+        }
+      },
+      {
+        "type": "ExportNamedDeclaration",
+        "start": 60,
+        "end": 92,
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 0
+          },
+          "end": {
+            "line": 3,
+            "column": 32
+          }
+        },
+        "specifiers": [],
+        "source": null,
+        "declaration": {
+          "type": "VariableDeclaration",
+          "start": 67,
+          "end": 92,
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 7
+            },
+            "end": {
+              "line": 3,
+              "column": 32
+            }
+          },
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 73,
+              "end": 92,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 13
+                },
+                "end": {
+                  "line": 3,
+                  "column": 32
+                }
+              },
+              "id": {
+                "type": "Identifier",
+                "start": 73,
+                "end": 80,
+                "loc": {
+                  "start": {
+                    "line": 3,
+                    "column": 13
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 20
+                  },
+                  "identifierName": "SIGN_IN"
+                },
+                "name": "SIGN_IN"
+              },
+              "init": {
+                "type": "StringLiteral",
+                "start": 83,
+                "end": 92,
+                "loc": {
+                  "start": {
+                    "line": 3,
+                    "column": 23
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 32
+                  }
+                },
+                "extra": {
+                  "rawValue": "/signin",
+                  "raw": "'/signin'"
+                },
+                "value": "/signin"
+              }
+            }
+          ],
+          "kind": "const",
+          "leadingComments": [],
+          "trailingComments": []
+        }
+      },
+      {
+        "type": "ExportNamedDeclaration",
+        "start": 93,
+        "end": 120,
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 0
+          },
+          "end": {
+            "line": 4,
+            "column": 27
+          }
+        },
+        "specifiers": [],
+        "source": null,
+        "declaration": {
+          "type": "VariableDeclaration",
+          "start": 100,
+          "end": 120,
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 7
+            },
+            "end": {
+              "line": 4,
+              "column": 27
+            }
+          },
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 106,
+              "end": 120,
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 13
+                },
+                "end": {
+                  "line": 4,
+                  "column": 27
+                }
+              },
+              "id": {
+                "type": "Identifier",
+                "start": 106,
+                "end": 110,
+                "loc": {
+                  "start": {
+                    "line": 4,
+                    "column": 13
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 17
+                  },
+                  "identifierName": "HOME"
+                },
+                "name": "HOME"
+              },
+              "init": {
+                "type": "StringLiteral",
+                "start": 113,
+                "end": 120,
+                "loc": {
+                  "start": {
+                    "line": 4,
+                    "column": 20
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 27
+                  }
+                },
+                "extra": {
+                  "rawValue": "/home",
+                  "raw": "'/home'"
+                },
+                "value": "/home"
+              }
+            }
+          ],
+          "kind": "const",
+          "leadingComments": [],
+          "trailingComments": []
+        }
+      },
+      {
+        "type": "ExportNamedDeclaration",
+        "start": 121,
+        "end": 153,
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 0
+          },
+          "end": {
+            "line": 5,
+            "column": 32
+          }
+        },
+        "specifiers": [],
+        "source": null,
+        "declaration": {
+          "type": "VariableDeclaration",
+          "start": 128,
+          "end": 153,
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 7
+            },
+            "end": {
+              "line": 5,
+              "column": 32
+            }
+          },
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 134,
+              "end": 153,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 13
+                },
+                "end": {
+                  "line": 5,
+                  "column": 32
+                }
+              },
+              "id": {
+                "type": "Identifier",
+                "start": 134,
+                "end": 138,
+                "loc": {
+                  "start": {
+                    "line": 5,
+                    "column": 13
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 17
+                  },
+                  "identifierName": "DASH"
+                },
+                "name": "DASH"
+              },
+              "init": {
+                "type": "StringLiteral",
+                "start": 141,
+                "end": 153,
+                "loc": {
+                  "start": {
+                    "line": 5,
+                    "column": 20
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 32
+                  }
+                },
+                "extra": {
+                  "rawValue": "/dashboard",
+                  "raw": "'/dashboard'"
+                },
+                "value": "/dashboard"
+              }
+            }
+          ],
+          "kind": "const",
+          "leadingComments": [],
+          "trailingComments": []
+        }
+      },
+      {
+        "type": "ExportNamedDeclaration",
+        "start": 154,
+        "end": 187,
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 0
+          },
+          "end": {
+            "line": 6,
+            "column": 33
+          }
+        },
+        "specifiers": [],
+        "source": null,
+        "declaration": {
+          "type": "VariableDeclaration",
+          "start": 161,
+          "end": 187,
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 7
+            },
+            "end": {
+              "line": 6,
+              "column": 33
+            }
+          },
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 167,
+              "end": 187,
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 13
+                },
+                "end": {
+                  "line": 6,
+                  "column": 33
+                }
+              },
+              "id": {
+                "type": "Identifier",
+                "start": 167,
+                "end": 174,
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 13
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 20
+                  },
+                  "identifierName": "ACCOUNT"
+                },
+                "name": "ACCOUNT"
+              },
+              "init": {
+                "type": "StringLiteral",
+                "start": 177,
+                "end": 187,
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 23
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 33
+                  }
+                },
+                "extra": {
+                  "rawValue": "/account",
+                  "raw": "'/account'"
+                },
+                "value": "/account"
+              }
+            }
+          ],
+          "kind": "const",
+          "leadingComments": [],
+          "trailingComments": []
+        }
+      },
+      {
+        "type": "ExportNamedDeclaration",
+        "start": 188,
+        "end": 231,
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 0
+          },
+          "end": {
+            "line": 7,
+            "column": 43
+          }
+        },
+        "specifiers": [],
+        "source": null,
+        "declaration": {
+          "type": "VariableDeclaration",
+          "start": 195,
+          "end": 231,
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 7
+            },
+            "end": {
+              "line": 7,
+              "column": 43
+            }
+          },
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 201,
+              "end": 231,
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 13
+                },
+                "end": {
+                  "line": 7,
+                  "column": 43
+                }
+              },
+              "id": {
+                "type": "Identifier",
+                "start": 201,
+                "end": 216,
+                "loc": {
+                  "start": {
+                    "line": 7,
+                    "column": 13
+                  },
+                  "end": {
+                    "line": 7,
+                    "column": 28
+                  },
+                  "identifierName": "PASSWORD_FORGET"
+                },
+                "name": "PASSWORD_FORGET"
+              },
+              "init": {
+                "type": "StringLiteral",
+                "start": 219,
+                "end": 231,
+                "loc": {
+                  "start": {
+                    "line": 7,
+                    "column": 31
+                  },
+                  "end": {
+                    "line": 7,
+                    "column": 43
+                  }
+                },
+                "extra": {
+                  "rawValue": "/pw-forget",
+                  "raw": "'/pw-forget'"
+                },
+                "value": "/pw-forget"
+              }
+            }
+          ],
+          "kind": "const",
+          "leadingComments": [],
+          "trailingComments": []
+        }
+      },
+      {
+        "type": "ExportNamedDeclaration",
+        "start": 232,
+        "end": 261,
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 0
+          },
+          "end": {
+            "line": 8,
+            "column": 29
+          }
+        },
+        "specifiers": [],
+        "source": null,
+        "declaration": {
+          "type": "VariableDeclaration",
+          "start": 239,
+          "end": 261,
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 7
+            },
+            "end": {
+              "line": 8,
+              "column": 29
+            }
+          },
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 245,
+              "end": 261,
+              "loc": {
+                "start": {
+                  "line": 8,
+                  "column": 13
+                },
+                "end": {
+                  "line": 8,
+                  "column": 29
+                }
+              },
+              "id": {
+                "type": "Identifier",
+                "start": 245,
+                "end": 250,
+                "loc": {
+                  "start": {
+                    "line": 8,
+                    "column": 13
+                  },
+                  "end": {
+                    "line": 8,
+                    "column": 18
+                  },
+                  "identifierName": "ADMIN"
+                },
+                "name": "ADMIN"
+              },
+              "init": {
+                "type": "StringLiteral",
+                "start": 253,
+                "end": 261,
+                "loc": {
+                  "start": {
+                    "line": 8,
+                    "column": 21
+                  },
+                  "end": {
+                    "line": 8,
+                    "column": 29
+                  }
+                },
+                "extra": {
+                  "rawValue": "/admin",
+                  "raw": "'/admin'"
+                },
+                "value": "/admin"
+              }
+            }
+          ],
+          "kind": "const",
+          "leadingComments": [],
+          "trailingComments": []
+        }
+      },
+      {
+        "type": "ExportNamedDeclaration",
+        "start": 262,
+        "end": 303,
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 0
+          },
+          "end": {
+            "line": 9,
+            "column": 41
+          }
+        },
+        "specifiers": [],
+        "source": null,
+        "declaration": {
+          "type": "VariableDeclaration",
+          "start": 269,
+          "end": 303,
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 7
+            },
+            "end": {
+              "line": 9,
+              "column": 41
+            }
+          },
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 275,
+              "end": 303,
+              "loc": {
+                "start": {
+                  "line": 9,
+                  "column": 13
+                },
+                "end": {
+                  "line": 9,
+                  "column": 41
+                }
+              },
+              "id": {
+                "type": "Identifier",
+                "start": 275,
+                "end": 288,
+                "loc": {
+                  "start": {
+                    "line": 9,
+                    "column": 13
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 26
+                  },
+                  "identifierName": "ADMIN_DETAILS"
+                },
+                "name": "ADMIN_DETAILS"
+              },
+              "init": {
+                "type": "StringLiteral",
+                "start": 291,
+                "end": 303,
+                "loc": {
+                  "start": {
+                    "line": 9,
+                    "column": 29
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 41
+                  }
+                },
+                "extra": {
+                  "rawValue": "/admin/:id",
+                  "raw": "'/admin/:id'"
+                },
+                "value": "/admin/:id",
+                "leadingComments": null,
+                "trailingComments": null
+              },
+              "trailingComments": null
+            }
+          ],
+          "kind": "const",
+          "trailingComments": [
+            {
+              "type": "CommentBlock",
+              "value": "*\n * Mailbox routes\n ",
+              "start": 305,
+              "end": 330,
+              "loc": {
+                "start": {
+                  "line": 11,
+                  "column": 0
+                },
+                "end": {
+                  "line": 13,
+                  "column": 3
+                }
+              }
+            }
+          ],
+          "leadingComments": []
+        },
+        "trailingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\n * Mailbox routes\n ",
+            "start": 305,
+            "end": 330,
+            "loc": {
+              "start": {
+                "line": 11,
+                "column": 0
+              },
+              "end": {
+                "line": 13,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ExportNamedDeclaration",
+        "start": 331,
+        "end": 361,
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 0
+          },
+          "end": {
+            "line": 14,
+            "column": 30
+          }
+        },
+        "specifiers": [],
+        "source": null,
+        "declaration": {
+          "type": "VariableDeclaration",
+          "start": 338,
+          "end": 361,
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 7
+            },
+            "end": {
+              "line": 14,
+              "column": 30
+            }
+          },
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 344,
+              "end": 361,
+              "loc": {
+                "start": {
+                  "line": 14,
+                  "column": 13
+                },
+                "end": {
+                  "line": 14,
+                  "column": 30
+                }
+              },
+              "id": {
+                "type": "Identifier",
+                "start": 344,
+                "end": 351,
+                "loc": {
+                  "start": {
+                    "line": 14,
+                    "column": 13
+                  },
+                  "end": {
+                    "line": 14,
+                    "column": 20
+                  },
+                  "identifierName": "MAILBOX"
+                },
+                "name": "MAILBOX",
+                "leadingComments": null
+              },
+              "init": {
+                "type": "StringLiteral",
+                "start": 354,
+                "end": 361,
+                "loc": {
+                  "start": {
+                    "line": 14,
+                    "column": 23
+                  },
+                  "end": {
+                    "line": 14,
+                    "column": 30
+                  }
+                },
+                "extra": {
+                  "rawValue": "/mail",
+                  "raw": "'/mail'"
+                },
+                "value": "/mail"
+              },
+              "leadingComments": null
+            }
+          ],
+          "kind": "const",
+          "leadingComments": [
+            {
+              "type": "CommentBlock",
+              "value": "*\n * Mailbox routes\n ",
+              "start": 305,
+              "end": 330,
+              "loc": {
+                "start": {
+                  "line": 11,
+                  "column": 0
+                },
+                "end": {
+                  "line": 13,
+                  "column": 3
+                }
+              }
+            }
+          ],
+          "trailingComments": []
+        },
+        "leadingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\n * Mailbox routes\n ",
+            "start": 305,
+            "end": 330,
+            "loc": {
+              "start": {
+                "line": 11,
+                "column": 0
+              },
+              "end": {
+                "line": 13,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ExportNamedDeclaration",
+        "start": 362,
+        "end": 404,
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 0
+          },
+          "end": {
+            "line": 15,
+            "column": 42
+          }
+        },
+        "specifiers": [],
+        "source": null,
+        "declaration": {
+          "type": "VariableDeclaration",
+          "start": 369,
+          "end": 404,
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 7
+            },
+            "end": {
+              "line": 15,
+              "column": 42
+            }
+          },
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 375,
+              "end": 404,
+              "loc": {
+                "start": {
+                  "line": 15,
+                  "column": 13
+                },
+                "end": {
+                  "line": 15,
+                  "column": 42
+                }
+              },
+              "id": {
+                "type": "Identifier",
+                "start": 375,
+                "end": 388,
+                "loc": {
+                  "start": {
+                    "line": 15,
+                    "column": 13
+                  },
+                  "end": {
+                    "line": 15,
+                    "column": 26
+                  },
+                  "identifierName": "MAILBOX_INBOX"
+                },
+                "name": "MAILBOX_INBOX"
+              },
+              "init": {
+                "type": "StringLiteral",
+                "start": 391,
+                "end": 404,
+                "loc": {
+                  "start": {
+                    "line": 15,
+                    "column": 29
+                  },
+                  "end": {
+                    "line": 15,
+                    "column": 42
+                  }
+                },
+                "extra": {
+                  "rawValue": "/mail/inbox",
+                  "raw": "'/mail/inbox'"
+                },
+                "value": "/mail/inbox"
+              }
+            }
+          ],
+          "kind": "const",
+          "leadingComments": [],
+          "trailingComments": []
+        }
+      },
+      {
+        "type": "ExportNamedDeclaration",
+        "start": 405,
+        "end": 451,
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 0
+          },
+          "end": {
+            "line": 16,
+            "column": 46
+          }
+        },
+        "specifiers": [],
+        "source": null,
+        "declaration": {
+          "type": "VariableDeclaration",
+          "start": 412,
+          "end": 451,
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 7
+            },
+            "end": {
+              "line": 16,
+              "column": 46
+            }
+          },
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 418,
+              "end": 451,
+              "loc": {
+                "start": {
+                  "line": 16,
+                  "column": 13
+                },
+                "end": {
+                  "line": 16,
+                  "column": 46
+                }
+              },
+              "id": {
+                "type": "Identifier",
+                "start": 418,
+                "end": 433,
+                "loc": {
+                  "start": {
+                    "line": 16,
+                    "column": 13
+                  },
+                  "end": {
+                    "line": 16,
+                    "column": 28
+                  },
+                  "identifierName": "MAILBOX_STARRED"
+                },
+                "name": "MAILBOX_STARRED"
+              },
+              "init": {
+                "type": "StringLiteral",
+                "start": 436,
+                "end": 451,
+                "loc": {
+                  "start": {
+                    "line": 16,
+                    "column": 31
+                  },
+                  "end": {
+                    "line": 16,
+                    "column": 46
+                  }
+                },
+                "extra": {
+                  "rawValue": "/mail/starred",
+                  "raw": "'/mail/starred'"
+                },
+                "value": "/mail/starred"
+              }
+            }
+          ],
+          "kind": "const",
+          "leadingComments": [],
+          "trailingComments": []
+        }
+      },
+      {
+        "type": "ExportNamedDeclaration",
+        "start": 452,
+        "end": 492,
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 0
+          },
+          "end": {
+            "line": 17,
+            "column": 40
+          }
+        },
+        "specifiers": [],
+        "source": null,
+        "declaration": {
+          "type": "VariableDeclaration",
+          "start": 459,
+          "end": 492,
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 7
+            },
+            "end": {
+              "line": 17,
+              "column": 40
+            }
+          },
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 465,
+              "end": 492,
+              "loc": {
+                "start": {
+                  "line": 17,
+                  "column": 13
+                },
+                "end": {
+                  "line": 17,
+                  "column": 40
+                }
+              },
+              "id": {
+                "type": "Identifier",
+                "start": 465,
+                "end": 477,
+                "loc": {
+                  "start": {
+                    "line": 17,
+                    "column": 13
+                  },
+                  "end": {
+                    "line": 17,
+                    "column": 25
+                  },
+                  "identifierName": "MAILBOX_SENT"
+                },
+                "name": "MAILBOX_SENT"
+              },
+              "init": {
+                "type": "StringLiteral",
+                "start": 480,
+                "end": 492,
+                "loc": {
+                  "start": {
+                    "line": 17,
+                    "column": 28
+                  },
+                  "end": {
+                    "line": 17,
+                    "column": 40
+                  }
+                },
+                "extra": {
+                  "rawValue": "/mail/sent",
+                  "raw": "'/mail/sent'"
+                },
+                "value": "/mail/sent"
+              }
+            }
+          ],
+          "kind": "const",
+          "leadingComments": [],
+          "trailingComments": []
+        }
+      },
+      {
+        "type": "ExportNamedDeclaration",
+        "start": 493,
+        "end": 543,
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 0
+          },
+          "end": {
+            "line": 18,
+            "column": 50
+          }
+        },
+        "specifiers": [],
+        "source": null,
+        "declaration": {
+          "type": "VariableDeclaration",
+          "start": 500,
+          "end": 543,
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 7
+            },
+            "end": {
+              "line": 18,
+              "column": 50
+            }
+          },
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 506,
+              "end": 543,
+              "loc": {
+                "start": {
+                  "line": 18,
+                  "column": 13
+                },
+                "end": {
+                  "line": 18,
+                  "column": 50
+                }
+              },
+              "id": {
+                "type": "Identifier",
+                "start": 506,
+                "end": 523,
+                "loc": {
+                  "start": {
+                    "line": 18,
+                    "column": 13
+                  },
+                  "end": {
+                    "line": 18,
+                    "column": 30
+                  },
+                  "identifierName": "MAILBOX_IMPORTANT"
+                },
+                "name": "MAILBOX_IMPORTANT"
+              },
+              "init": {
+                "type": "StringLiteral",
+                "start": 526,
+                "end": 543,
+                "loc": {
+                  "start": {
+                    "line": 18,
+                    "column": 33
+                  },
+                  "end": {
+                    "line": 18,
+                    "column": 50
+                  }
+                },
+                "extra": {
+                  "rawValue": "/mail/important",
+                  "raw": "'/mail/important'"
+                },
+                "value": "/mail/important"
+              }
+            }
+          ],
+          "kind": "const",
+          "leadingComments": [],
+          "trailingComments": []
+        }
+      },
+      {
+        "type": "ExportNamedDeclaration",
+        "start": 544,
+        "end": 586,
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 0
+          },
+          "end": {
+            "line": 19,
+            "column": 42
+          }
+        },
+        "specifiers": [],
+        "source": null,
+        "declaration": {
+          "type": "VariableDeclaration",
+          "start": 551,
+          "end": 586,
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 7
+            },
+            "end": {
+              "line": 19,
+              "column": 42
+            }
+          },
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 557,
+              "end": 586,
+              "loc": {
+                "start": {
+                  "line": 19,
+                  "column": 13
+                },
+                "end": {
+                  "line": 19,
+                  "column": 42
+                }
+              },
+              "id": {
+                "type": "Identifier",
+                "start": 557,
+                "end": 570,
+                "loc": {
+                  "start": {
+                    "line": 19,
+                    "column": 13
+                  },
+                  "end": {
+                    "line": 19,
+                    "column": 26
+                  },
+                  "identifierName": "MAILBOX_DRAFT"
+                },
+                "name": "MAILBOX_DRAFT"
+              },
+              "init": {
+                "type": "StringLiteral",
+                "start": 573,
+                "end": 586,
+                "loc": {
+                  "start": {
+                    "line": 19,
+                    "column": 29
+                  },
+                  "end": {
+                    "line": 19,
+                    "column": 42
+                  }
+                },
+                "extra": {
+                  "rawValue": "/mail/draft",
+                  "raw": "'/mail/draft'"
+                },
+                "value": "/mail/draft"
+              }
+            }
+          ],
+          "kind": "const",
+          "leadingComments": [],
+          "trailingComments": []
+        }
+      },
+      {
+        "type": "ExportNamedDeclaration",
+        "start": 587,
+        "end": 629,
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 0
+          },
+          "end": {
+            "line": 20,
+            "column": 42
+          }
+        },
+        "specifiers": [],
+        "source": null,
+        "declaration": {
+          "type": "VariableDeclaration",
+          "start": 594,
+          "end": 629,
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 7
+            },
+            "end": {
+              "line": 20,
+              "column": 42
+            }
+          },
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 600,
+              "end": 629,
+              "loc": {
+                "start": {
+                  "line": 20,
+                  "column": 13
+                },
+                "end": {
+                  "line": 20,
+                  "column": 42
+                }
+              },
+              "id": {
+                "type": "Identifier",
+                "start": 600,
+                "end": 613,
+                "loc": {
+                  "start": {
+                    "line": 20,
+                    "column": 13
+                  },
+                  "end": {
+                    "line": 20,
+                    "column": 26
+                  },
+                  "identifierName": "MAILBOX_TRASH"
+                },
+                "name": "MAILBOX_TRASH"
+              },
+              "init": {
+                "type": "StringLiteral",
+                "start": 616,
+                "end": 629,
+                "loc": {
+                  "start": {
+                    "line": 20,
+                    "column": 29
+                  },
+                  "end": {
+                    "line": 20,
+                    "column": 42
+                  }
+                },
+                "extra": {
+                  "rawValue": "/mail/trash",
+                  "raw": "'/mail/trash'"
+                },
+                "value": "/mail/trash"
+              }
+            }
+          ],
+          "kind": "const",
+          "leadingComments": [],
+          "trailingComments": []
+        }
+      }
+    ],
+    "directives": []
+  },
+  "comments": [
+    {
+      "type": "CommentBlock",
+      "value": "*\n * Mailbox routes\n ",
+      "start": 305,
+      "end": 330,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 0
+        },
+        "end": {
+          "line": 13,
+          "column": 3
+        }
+      }
+    }
+  ],
+  "tokens": [
+    {
+      "type": {
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "export",
+      "start": 0,
+      "end": 6,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "const",
+        "keyword": "const",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "const",
+      "start": 7,
+      "end": 12,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 7
+        },
+        "end": {
+          "line": 1,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "LANDING",
+      "start": 13,
+      "end": 20,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 13
+        },
+        "end": {
+          "line": 1,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 21,
+      "end": 22,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 21
+        },
+        "end": {
+          "line": 1,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "/",
+      "start": 23,
+      "end": 26,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 23
+        },
+        "end": {
+          "line": 1,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "export",
+      "start": 27,
+      "end": 33,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "const",
+        "keyword": "const",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "const",
+      "start": 34,
+      "end": 39,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 7
+        },
+        "end": {
+          "line": 2,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "SIGN_UP",
+      "start": 40,
+      "end": 47,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 13
+        },
+        "end": {
+          "line": 2,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 48,
+      "end": 49,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 21
+        },
+        "end": {
+          "line": 2,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "/signup",
+      "start": 50,
+      "end": 59,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 23
+        },
+        "end": {
+          "line": 2,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "export",
+      "start": 60,
+      "end": 66,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "const",
+        "keyword": "const",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "const",
+      "start": 67,
+      "end": 72,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 7
+        },
+        "end": {
+          "line": 3,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "SIGN_IN",
+      "start": 73,
+      "end": 80,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 13
+        },
+        "end": {
+          "line": 3,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 81,
+      "end": 82,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 21
+        },
+        "end": {
+          "line": 3,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "/signin",
+      "start": 83,
+      "end": 92,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 23
+        },
+        "end": {
+          "line": 3,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "export",
+      "start": 93,
+      "end": 99,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "const",
+        "keyword": "const",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "const",
+      "start": 100,
+      "end": 105,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 7
+        },
+        "end": {
+          "line": 4,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "HOME",
+      "start": 106,
+      "end": 110,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 13
+        },
+        "end": {
+          "line": 4,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 111,
+      "end": 112,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 18
+        },
+        "end": {
+          "line": 4,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "/home",
+      "start": 113,
+      "end": 120,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 20
+        },
+        "end": {
+          "line": 4,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "export",
+      "start": 121,
+      "end": 127,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "const",
+        "keyword": "const",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "const",
+      "start": 128,
+      "end": 133,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 7
+        },
+        "end": {
+          "line": 5,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "DASH",
+      "start": 134,
+      "end": 138,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 13
+        },
+        "end": {
+          "line": 5,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 139,
+      "end": 140,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 18
+        },
+        "end": {
+          "line": 5,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "/dashboard",
+      "start": 141,
+      "end": 153,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 20
+        },
+        "end": {
+          "line": 5,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "export",
+      "start": 154,
+      "end": 160,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "const",
+        "keyword": "const",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "const",
+      "start": 161,
+      "end": 166,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 7
+        },
+        "end": {
+          "line": 6,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "ACCOUNT",
+      "start": 167,
+      "end": 174,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 13
+        },
+        "end": {
+          "line": 6,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 175,
+      "end": 176,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 21
+        },
+        "end": {
+          "line": 6,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "/account",
+      "start": 177,
+      "end": 187,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 23
+        },
+        "end": {
+          "line": 6,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "export",
+      "start": 188,
+      "end": 194,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "const",
+        "keyword": "const",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "const",
+      "start": 195,
+      "end": 200,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 7
+        },
+        "end": {
+          "line": 7,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "PASSWORD_FORGET",
+      "start": 201,
+      "end": 216,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 13
+        },
+        "end": {
+          "line": 7,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 217,
+      "end": 218,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 29
+        },
+        "end": {
+          "line": 7,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "/pw-forget",
+      "start": 219,
+      "end": 231,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 31
+        },
+        "end": {
+          "line": 7,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "export",
+      "start": 232,
+      "end": 238,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "const",
+        "keyword": "const",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "const",
+      "start": 239,
+      "end": 244,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 7
+        },
+        "end": {
+          "line": 8,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "ADMIN",
+      "start": 245,
+      "end": 250,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 13
+        },
+        "end": {
+          "line": 8,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 251,
+      "end": 252,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 19
+        },
+        "end": {
+          "line": 8,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "/admin",
+      "start": 253,
+      "end": 261,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 21
+        },
+        "end": {
+          "line": 8,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "export",
+      "start": 262,
+      "end": 268,
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "const",
+        "keyword": "const",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "const",
+      "start": 269,
+      "end": 274,
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 7
+        },
+        "end": {
+          "line": 9,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "ADMIN_DETAILS",
+      "start": 275,
+      "end": 288,
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 13
+        },
+        "end": {
+          "line": 9,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 289,
+      "end": 290,
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 27
+        },
+        "end": {
+          "line": 9,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "/admin/:id",
+      "start": 291,
+      "end": 303,
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 29
+        },
+        "end": {
+          "line": 9,
+          "column": 41
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * Mailbox routes\n ",
+      "start": 305,
+      "end": 330,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 0
+        },
+        "end": {
+          "line": 13,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "export",
+      "start": 331,
+      "end": 337,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 0
+        },
+        "end": {
+          "line": 14,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "const",
+        "keyword": "const",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "const",
+      "start": 338,
+      "end": 343,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 7
+        },
+        "end": {
+          "line": 14,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "MAILBOX",
+      "start": 344,
+      "end": 351,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 13
+        },
+        "end": {
+          "line": 14,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 352,
+      "end": 353,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 21
+        },
+        "end": {
+          "line": 14,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "/mail",
+      "start": 354,
+      "end": 361,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 23
+        },
+        "end": {
+          "line": 14,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "export",
+      "start": 362,
+      "end": 368,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 0
+        },
+        "end": {
+          "line": 15,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "const",
+        "keyword": "const",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "const",
+      "start": 369,
+      "end": 374,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 7
+        },
+        "end": {
+          "line": 15,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "MAILBOX_INBOX",
+      "start": 375,
+      "end": 388,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 13
+        },
+        "end": {
+          "line": 15,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 389,
+      "end": 390,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 27
+        },
+        "end": {
+          "line": 15,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "/mail/inbox",
+      "start": 391,
+      "end": 404,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 29
+        },
+        "end": {
+          "line": 15,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "export",
+      "start": 405,
+      "end": 411,
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 0
+        },
+        "end": {
+          "line": 16,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "const",
+        "keyword": "const",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "const",
+      "start": 412,
+      "end": 417,
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 7
+        },
+        "end": {
+          "line": 16,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "MAILBOX_STARRED",
+      "start": 418,
+      "end": 433,
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 13
+        },
+        "end": {
+          "line": 16,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 434,
+      "end": 435,
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 29
+        },
+        "end": {
+          "line": 16,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "/mail/starred",
+      "start": 436,
+      "end": 451,
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 31
+        },
+        "end": {
+          "line": 16,
+          "column": 46
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "export",
+      "start": 452,
+      "end": 458,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 0
+        },
+        "end": {
+          "line": 17,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "const",
+        "keyword": "const",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "const",
+      "start": 459,
+      "end": 464,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 7
+        },
+        "end": {
+          "line": 17,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "MAILBOX_SENT",
+      "start": 465,
+      "end": 477,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 13
+        },
+        "end": {
+          "line": 17,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 478,
+      "end": 479,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 26
+        },
+        "end": {
+          "line": 17,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "/mail/sent",
+      "start": 480,
+      "end": 492,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 28
+        },
+        "end": {
+          "line": 17,
+          "column": 40
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "export",
+      "start": 493,
+      "end": 499,
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 0
+        },
+        "end": {
+          "line": 18,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "const",
+        "keyword": "const",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "const",
+      "start": 500,
+      "end": 505,
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 7
+        },
+        "end": {
+          "line": 18,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "MAILBOX_IMPORTANT",
+      "start": 506,
+      "end": 523,
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 13
+        },
+        "end": {
+          "line": 18,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 524,
+      "end": 525,
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 31
+        },
+        "end": {
+          "line": 18,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "/mail/important",
+      "start": 526,
+      "end": 543,
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 33
+        },
+        "end": {
+          "line": 18,
+          "column": 50
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "export",
+      "start": 544,
+      "end": 550,
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 0
+        },
+        "end": {
+          "line": 19,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "const",
+        "keyword": "const",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "const",
+      "start": 551,
+      "end": 556,
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 7
+        },
+        "end": {
+          "line": 19,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "MAILBOX_DRAFT",
+      "start": 557,
+      "end": 570,
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 13
+        },
+        "end": {
+          "line": 19,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 571,
+      "end": 572,
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 27
+        },
+        "end": {
+          "line": 19,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "/mail/draft",
+      "start": 573,
+      "end": 586,
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 29
+        },
+        "end": {
+          "line": 19,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "export",
+      "start": 587,
+      "end": 593,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 0
+        },
+        "end": {
+          "line": 20,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "const",
+        "keyword": "const",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "const",
+      "start": 594,
+      "end": 599,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 7
+        },
+        "end": {
+          "line": 20,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "MAILBOX_TRASH",
+      "start": 600,
+      "end": 613,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 13
+        },
+        "end": {
+          "line": 20,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 614,
+      "end": 615,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 27
+        },
+        "end": {
+          "line": 20,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "/mail/trash",
+      "start": 616,
+      "end": 629,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 29
+        },
+        "end": {
+          "line": 20,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "eof",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 630,
+      "end": 630,
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 0
+        },
+        "end": {
+          "line": 21,
+          "column": 0
+        }
+      }
+    }
+  ]
+}

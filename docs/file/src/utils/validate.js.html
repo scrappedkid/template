@@ -1,0 +1,1486 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/utils/validate.js | allineed.app</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-register">register</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-unregister">unregister</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#assets-components-services-firebasemessaging">assets/components/services/firebaseMessaging</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-initializeMessaging">initializeMessaging</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-requestPermission">requestPermission</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#assets-components-services-notification">assets/components/services/notification</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-clearNotifications">clearNotifications</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-dismissNotification">dismissNotification</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-showError">showError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-showNotification">showNotification</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-showSuccess">showSuccess</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-NOTIFICATION_CLEAR">NOTIFICATION_CLEAR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-NOTIFICATION_DISMISS">NOTIFICATION_DISMISS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-NOTIFICATION_SHOW">NOTIFICATION_SHOW</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#assets-components-services-notification-components">assets/components/services/notification/components</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-withNotifications">withNotifications</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#assets-components-services-rendererrror">assets/components/services/renderErrror</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-init">init</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setErrorUser">setErrorUser</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#assets-layout-adminnav--future-">assets/layout/AdminNav (future)</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-subNav">subNav</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#controllers-config">controllers/config</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-analyticsTrackingId">analyticsTrackingId</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-env">env</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-fbConfig">fbConfig</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-publicVapidKey">publicVapidKey</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-rrfConfig">rrfConfig</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sentryDsn">sentryDsn</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#controllers-constants">controllers/constants</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ADMIN">ADMIN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MEMBER">MEMBER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ACCOUNT">ACCOUNT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ADMIN">ADMIN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ADMIN_DETAILS">ADMIN_DETAILS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-DASH">DASH</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-HOME">HOME</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-LANDING">LANDING</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MAILBOX">MAILBOX</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MAILBOX_DRAFT">MAILBOX_DRAFT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MAILBOX_IMPORTANT">MAILBOX_IMPORTANT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MAILBOX_INBOX">MAILBOX_INBOX</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MAILBOX_SENT">MAILBOX_SENT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MAILBOX_STARRED">MAILBOX_STARRED</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MAILBOX_TRASH">MAILBOX_TRASH</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-PASSWORD_FORGET">PASSWORD_FORGET</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SIGN_IN">SIGN_IN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SIGN_UP">SIGN_UP</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#controllers-reducers">controllers/reducers</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-injectReducer">injectReducer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-rootReducer">rootReducer</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#controllers-reducers-backend">controllers/reducers/BackEnd</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-locationChange">locationChange</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-locationReducer">locationReducer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateLocation">updateLocation</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-LOCATION_CHANGE">LOCATION_CHANGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-persistore">persistore</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#controllers-reducers-frontend">controllers/reducers/frontend</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-emailReducer">emailReducer</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#controllers-reducers-frontend-authreducer">controllers/reducers/frontend/authReducer</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-authReducer">authReducer</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#controllers-reducers-mail">controllers/reducers/mail</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-active">active</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-emails">emails</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-errors">errors</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-recipient">recipient</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sender">sender</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#controllers-routes">controllers/routes</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-pubMenu1">pubMenu1</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-pubMenu2">pubMenu2</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#controllers-store">controllers/store</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-configureStore">configureStore</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#tools">tools</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-UserHasPermission">UserHasPermission</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-UserIsAuthenticated">UserIsAuthenticated</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-UserIsNotAuthenticated">UserIsNotAuthenticated</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#tools-hoc">tools/hoc</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-withApp">withApp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-withStore">withStore</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#utils">utils</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-createReducer">createReducer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-initializeMessaging">initializeMessaging</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-requestPermission">requestPermission</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-fpLog">fpLog</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-initScripts">initScripts</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-required">required</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-validateEmail">validateEmail</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-createReducer">createReducer</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#utils-unused-store">utils/unused store</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-init">init</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setAnalyticsUser">setAnalyticsUser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-trackRouteUpdate">trackRouteUpdate</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-triggerAnalyticsEvent">triggerAnalyticsEvent</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#z-adopted--templates-templates">z.Adopted  Templates/templates</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-actionTypes">actionTypes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-actionsPrefix">actionsPrefix</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-defaultConfig">defaultConfig</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-supportedAuthProviders">supportedAuthProviders</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-topLevelPaths">topLevelPaths</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#z-possible-use-case-templates-todo-tasks">z.Possible Use Case Templates/todo tasks</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-init">init</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setErrorUser">setErrorUser</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#z-possible-use-case-templates-todo-tasks-mail-actions">z.Possible Use Case Templates/todo tasks/mail/actions</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-selectEmail">selectEmail</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-selectGroup">selectGroup</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sendEmail">sendEmail</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setForm">setForm</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SELECT_EMAIL">SELECT_EMAIL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SELECT_GROUP">SELECT_GROUP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SEND_EMAIL">SEND_EMAIL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SET_FORM">SET_FORM</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#z-possible-use-case-templates-todo-tasks-mail-reducers">z.Possible Use Case Templates/todo tasks/mail/reducers</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-emailReducer">emailReducer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-reducer">reducer</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/utils/validate.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">/* !
+ * validate.js 0.12.0
+ *
+ * (c) 2013-2017 Nicklas Ansman, 2013 Wrapp
+ * Validate.js may be freely distributed under the MIT license.
+ * For all details and documentation:
+ * http://validatejs.org/
+ */
+
+;(function (exports, module, define) {
+  // The main function that calls the validators specified by the constraints.
+  // The options are the following:
+  //   - format (string) - An option that controls how the returned value is formatted
+  //     * flat - Returns a flat array of just the error messages
+  //     * grouped - Returns the messages grouped by attribute (default)
+  //     * detailed - Returns an array of the raw validation data
+  //   - fullMessages (boolean) - If `true` (default) the attribute name is prepended to the error.
+  //
+  // Please note that the options are also passed to each validator.
+  var validate = function (attributes, constraints, options) {
+    options = v.extend({}, v.options, options)
+
+    var results = v.runValidations(attributes, constraints, options)
+
+    var attr
+
+    var validator
+
+    if (
+      results.some(function (r) {
+        return v.isPromise(r.error)
+      })
+    ) {
+      throw new Error(&apos;Use validate.async if you want support for promises&apos;)
+    }
+    return validate.processValidationResults(results, options)
+  }
+
+  var v = validate
+
+  // Copies over attributes from one or more sources to a single destination.
+  // Very much similar to underscore&apos;s extend.
+  // The first argument is the target object and the remaining arguments will be
+  // used as sources.
+  v.extend = function (obj) {
+    ;[].slice.call(arguments, 1).forEach(function (source) {
+      for (var attr in source) {
+        obj[attr] = source[attr]
+      }
+    })
+    return obj
+  }
+
+  v.extend(validate, {
+    // This is the version of the library as a semver.
+    // The toString function will allow it to be coerced into a string
+    version: {
+      major: 0,
+      minor: 12,
+      patch: 0,
+      metadata: null,
+      toString: function () {
+        var version = v.format(&apos;%{major}.%{minor}.%{patch}&apos;, v.version)
+        if (!v.isEmpty(v.version.metadata)) {
+          version += `+${v.version.metadata}`
+        }
+        return version
+      }
+    },
+
+    // Below is the dependencies that are used in validate.js
+
+    // The constructor of the Promise implementation.
+    // If you are using Q.js, RSVP or any other A+ compatible implementation
+    // override this attribute to be the constructor of that promise.
+    // Since jQuery promises aren&apos;t A+ compatible they won&apos;t work.
+    Promise:
+      typeof Promise !== &apos;undefined&apos;
+        ? Promise
+        : /* istanbul ignore next */ null,
+
+    EMPTY_STRING_REGEXP: /^\s*$/,
+
+    // Runs the validators specified by the constraints object.
+    // Will return an array of the format:
+    //     [{attribute: &quot;&lt;attribute name&gt;&quot;, error: &quot;&lt;validation result&gt;&quot;}, ...]
+    runValidations: function (attributes, constraints, options) {
+      var results = []
+
+      var attr
+
+      var validatorName
+
+      var value
+
+      var validators
+
+      var validator
+
+      var validatorOptions
+
+      var error
+
+      if (v.isDomElement(attributes) || v.isJqueryElement(attributes)) {
+        attributes = v.collectFormValues(attributes)
+      }
+
+      // Loops through each constraints, finds the correct validator and run it.
+      for (attr in constraints) {
+        value = v.getDeepObjectValue(attributes, attr)
+        // This allows the constraints for an attribute to be a function.
+        // The function will be called with the value, attribute name, the complete dict of
+        // attributes as well as the options and constraints passed in.
+        // This is useful when you want to have different
+        // validations depending on the attribute value.
+        validators = v.result(
+          constraints[attr],
+          value,
+          attributes,
+          attr,
+          options,
+          constraints
+        )
+
+        for (validatorName in validators) {
+          validator = v.validators[validatorName]
+
+          if (!validator) {
+            error = v.format(&apos;Unknown validator %{name}&apos;, {
+              name: validatorName
+            })
+            throw new Error(error)
+          }
+
+          validatorOptions = validators[validatorName]
+          // This allows the options to be a function. The function will be
+          // called with the value, attribute name, the complete dict of
+          // attributes as well as the options and constraints passed in.
+          // This is useful when you want to have different
+          // validations depending on the attribute value.
+          validatorOptions = v.result(
+            validatorOptions,
+            value,
+            attributes,
+            attr,
+            options,
+            constraints
+          )
+          if (!validatorOptions) {
+            continue
+          }
+          results.push({
+            attribute: attr,
+            value: value,
+            validator: validatorName,
+            globalOptions: options,
+            attributes: attributes,
+            options: validatorOptions,
+            error: validator.call(
+              validator,
+              value,
+              validatorOptions,
+              attr,
+              attributes,
+              options
+            )
+          })
+        }
+      }
+
+      return results
+    },
+
+    // Takes the output from runValidations and converts it to the correct
+    // output format.
+    processValidationResults: function (errors, options) {
+      errors = v.pruneEmptyErrors(errors, options)
+      errors = v.expandMultipleErrors(errors, options)
+      errors = v.convertErrorMessages(errors, options)
+
+      var format = options.format || &apos;grouped&apos;
+
+      if (typeof v.formatters[format] === &apos;function&apos;) {
+        errors = v.formatters[format](errors)
+      } else {
+        throw new Error(v.format(&apos;Unknown format %{format}&apos;, options))
+      }
+
+      return v.isEmpty(errors) ? undefined : errors
+    },
+
+    // Runs the validations with support for promises.
+    // This function will return a promise that is settled when all the
+    // validation promises have been completed.
+    // It can be called even if no validations returned a promise.
+    async: function (attributes, constraints, options) {
+      options = v.extend({}, v.async.options, options)
+
+      var WrapErrors =
+        options.wrapErrors ||
+        function (errors) {
+          return errors
+        }
+
+      // Removes unknown attributes
+      if (options.cleanAttributes !== false) {
+        attributes = v.cleanAttributes(attributes, constraints)
+      }
+
+      var results = v.runValidations(attributes, constraints, options)
+
+      return new v.Promise(function (resolve, reject) {
+        v.waitForResults(results).then(
+          function () {
+            var errors = v.processValidationResults(results, options)
+            if (errors) {
+              reject(new WrapErrors(errors, options, attributes, constraints))
+            } else {
+              resolve(attributes)
+            }
+          },
+          function (err) {
+            reject(err)
+          }
+        )
+      })
+    },
+
+    single: function (value, constraints, options) {
+      options = v.extend({}, v.single.options, options, {
+        format: &apos;flat&apos;,
+        fullMessages: false
+      })
+      return v({ single: value }, { single: constraints }, options)
+    },
+
+    // Returns a promise that is resolved when all promises in the results array
+    // are settled. The promise returned from this function is always resolved,
+    // never rejected.
+    // This function modifies the input argument, it replaces the promises
+    // with the value returned from the promise.
+    waitForResults: function (results) {
+      // Create a sequence of all the results starting with a resolved promise.
+      return results.reduce(
+        function (memo, result) {
+          // If this result isn&apos;t a promise skip it in the sequence.
+          if (!v.isPromise(result.error)) {
+            return memo
+          }
+
+          return memo.then(function () {
+            return result.error.then(function (error) {
+              result.error = error || null
+            })
+          })
+        },
+        new v.Promise(function (r) {
+          r()
+        })
+      ) // A resolved promise
+    },
+
+    // If the given argument is a call: function the and: function return the value
+    // otherwise just return the value. Additional arguments will be passed as
+    // arguments to the function.
+    // Example:
+    // ```
+    // result(&apos;foo&apos;) // &apos;foo&apos;
+    // result(Math.max, 1, 2) // 2
+    // ```
+    result: function (value) {
+      var args = [].slice.call(arguments, 1)
+      if (typeof value === &apos;function&apos;) {
+        value = value.apply(null, args)
+      }
+      return value
+    },
+
+    // Checks if the value is a number. This function does not consider NaN a
+    // number like many other `isNumber` functions do.
+    isNumber: function (value) {
+      return typeof value === &apos;number&apos; &amp;&amp; !isNaN(value)
+    },
+
+    // Returns false if the object is not a function
+    isFunction: function (value) {
+      return typeof value === &apos;function&apos;
+    },
+
+    // A simple check to verify that the value is an integer. Uses `isNumber`
+    // and a simple modulo check.
+    isInteger: function (value) {
+      return v.isNumber(value) &amp;&amp; value % 1 === 0
+    },
+
+    // Checks if the value is a boolean
+    isBoolean: function (value) {
+      return typeof value === &apos;boolean&apos;
+    },
+
+    // Uses the `Object` function to check if the given argument is an object.
+    isObject: function (obj) {
+      return obj === Object(obj)
+    },
+
+    // Simply checks if the object is an instance of a date
+    isDate: function (obj) {
+      return obj instanceof Date
+    },
+
+    // Returns false if the object is `null` of `undefined`
+    isDefined: function (obj) {
+      return obj !== null &amp;&amp; obj !== undefined
+    },
+
+    // Checks if the given argument is a promise. Anything with a `then`
+    // function is considered a promise.
+    isPromise: function (p) {
+      return !!p &amp;&amp; v.isFunction(p.then)
+    },
+
+    isJqueryElement: function (o) {
+      return o &amp;&amp; v.isString(o.jquery)
+    },
+
+    isDomElement: function (o) {
+      if (!o) {
+        return false
+      }
+
+      if (!o.querySelectorAll || !o.querySelector) {
+        return false
+      }
+
+      if (v.isObject(document) &amp;&amp; o === document) {
+        return true
+      }
+
+      // http://stackoverflow.com/a/384380/699304
+      /* istanbul ignore else */
+      if (typeof HTMLElement === &apos;object&apos;) {
+        return o instanceof HTMLElement
+      } else {
+        return (
+          o &amp;&amp;
+          typeof o === &apos;object&apos; &amp;&amp;
+          o !== null &amp;&amp;
+          o.nodeType === 1 &amp;&amp;
+          typeof o.nodeName === &apos;string&apos;
+        )
+      }
+    },
+
+    isEmpty: function (value) {
+      var attr
+
+      // Null and undefined are empty
+      if (!v.isDefined(value)) {
+        return true
+      }
+
+      // functions are non empty
+      if (v.isFunction(value)) {
+        return false
+      }
+
+      // Whitespace only strings are empty
+      if (v.isString(value)) {
+        return v.EMPTY_STRING_REGEXP.test(value)
+      }
+
+      // For arrays we use the length property
+      if (v.isArray(value)) {
+        return value.length === 0
+      }
+
+      // Dates have no attributes but aren&apos;t empty
+      if (v.isDate(value)) {
+        return false
+      }
+
+      // If we find at least one property we consider it non empty
+      if (v.isObject(value)) {
+        for (attr in value) {
+          return false
+        }
+        return true
+      }
+
+      return false
+    },
+
+    // Formats the specified strings with the given values like so:
+    // ```
+    // format(&quot;Foo: %{foo}&quot;, {foo: &quot;bar&quot;}) // &quot;Foo bar&quot;
+    // ```
+    // If you want to write %{...} without having it replaced simply
+    // prefix it with % like this `Foo: %%{foo}` and it will be returned
+    // as `&quot;Foo: %{foo}&quot;`
+    format: v.extend(
+      function (str, vals) {
+        if (!v.isString(str)) {
+          return str
+        }
+        return str.replace(v.format.FORMAT_REGEXP, function (m0, m1, m2) {
+          if (m1 === &apos;%&apos;) {
+            return `%{${m2}}`
+          } else {
+            return String(vals[m2])
+          }
+        })
+      },
+      {
+        // Finds %{key} style patterns in the given string
+        FORMAT_REGEXP: /(%?)%\{([^\}]+)\}/g
+      }
+    ),
+
+    // &quot;Prettifies&quot; the given string.
+    // Prettifying means replacing [.\_-] with spaces as well as splitting
+    // camel case words.
+    prettify: function (str) {
+      if (v.isNumber(str)) {
+        // If there are more than 2 decimals round it to two
+        if ((str * 100) % 1 === 0) {
+          return `${str}`
+        } else {
+          return parseFloat(Math.round(str * 100) / 100).toFixed(2)
+        }
+      }
+
+      if (v.isArray(str)) {
+        return str
+          .map(function (s) {
+            return v.prettify(s)
+          })
+          .join(&apos;, &apos;)
+      }
+
+      if (v.isObject(str)) {
+        return str.toString()
+      }
+
+      // Ensure the string is actually a string
+      str = `${str}`
+
+      return (
+        str
+          // Splits keys separated by periods
+          .replace(/([^\s])\.([^\s])/g, &apos;$1 $2&apos;)
+          // Removes backslashes
+          .replace(/\\+/g, &apos;&apos;)
+          // Replaces - and - with space
+          .replace(/[_-]/g, &apos; &apos;)
+          // Splits camel cased words
+          .replace(/([a-z])([A-Z])/g, function (m0, m1, m2) {
+            return `${m1} ${m2.toLowerCase()}`
+          })
+          .toLowerCase()
+      )
+    },
+
+    stringifyValue: function (value, options) {
+      var prettify = (options &amp;&amp; options.prettify) || v.prettify
+      return prettify(value)
+    },
+
+    isString: function (value) {
+      return typeof value === &apos;string&apos;
+    },
+
+    isArray: function (value) {
+      return {}.toString.call(value) === &apos;[object Array]&apos;
+    },
+
+    // Checks if the object is a hash, which is equivalent to an object that
+    // is neither an array nor a function.
+    isHash: function (value) {
+      return v.isObject(value) &amp;&amp; !v.isArray(value) &amp;&amp; !v.isFunction(value)
+    },
+
+    contains: function (obj, value) {
+      if (!v.isDefined(obj)) {
+        return false
+      }
+      if (v.isArray(obj)) {
+        return obj.indexOf(value) !== -1
+      }
+      return value in obj
+    },
+
+    unique: function (array) {
+      if (!v.isArray(array)) {
+        return array
+      }
+      return array.filter(function (el, index, array) {
+        return array.indexOf(el) == index
+      })
+    },
+
+    forEachKeyInKeypath: function (object, keypath, callback) {
+      if (!v.isString(keypath)) {
+        return undefined
+      }
+
+      var key = &apos;&apos;
+
+      var i
+
+      var escape = false
+
+      for (i = 0; i &lt; keypath.length; ++i) {
+        switch (keypath[i]) {
+          case &apos;.&apos;:
+            if (escape) {
+              escape = false
+              key += &apos;.&apos;
+            } else {
+              object = callback(object, key, false)
+              key = &apos;&apos;
+            }
+            break
+
+          case &apos;\\&apos;:
+            if (escape) {
+              escape = false
+              key += &apos;\\&apos;
+            } else {
+              escape = true
+            }
+            break
+
+          default:
+            escape = false
+            key += keypath[i]
+            break
+        }
+      }
+
+      return callback(object, key, true)
+    },
+
+    getDeepObjectValue: function (obj, keypath) {
+      if (!v.isObject(obj)) {
+        return undefined
+      }
+
+      return v.forEachKeyInKeypath(obj, keypath, function (obj, key) {
+        if (v.isObject(obj)) {
+          return obj[key]
+        }
+      })
+    },
+
+    // This returns an object with all the values of the form.
+    // It uses the input name as key and the value as value
+    // So for example this:
+    // &lt;input type=&quot;text&quot; name=&quot;email&quot; value=&quot;foo@bar.com&quot; /&gt;
+    // would return:
+    // {email: &quot;foo@bar.com&quot;}
+    collectFormValues: function (form, options) {
+      var values = {}
+
+      var i
+
+      var j
+
+      var input
+
+      var inputs
+
+      var option
+
+      var value
+
+      if (v.isJqueryElement(form)) {
+        form = form[0]
+      }
+
+      if (!form) {
+        return values
+      }
+
+      options = options || {}
+
+      inputs = form.querySelectorAll(&apos;input[name], textarea[name]&apos;)
+      for (i = 0; i &lt; inputs.length; ++i) {
+        input = inputs.item(i)
+
+        if (v.isDefined(input.getAttribute(&apos;data-ignored&apos;))) {
+          continue
+        }
+
+        name = input.name.replace(/\./g, &apos;\\\\.&apos;)
+        value = v.sanitizeFormValue(input.value, options)
+        if (input.type === &apos;number&apos;) {
+          value = value ? +value : null
+        } else if (input.type === &apos;checkbox&apos;) {
+          if (input.attributes.value) {
+            if (!input.checked) {
+              value = values[name] || null
+            }
+          } else {
+            value = input.checked
+          }
+        } else if (input.type === &apos;radio&apos;) {
+          if (!input.checked) {
+            value = values[name] || null
+          }
+        }
+        values[name] = value
+      }
+
+      inputs = form.querySelectorAll(&apos;select[name]&apos;)
+      for (i = 0; i &lt; inputs.length; ++i) {
+        input = inputs.item(i)
+        if (v.isDefined(input.getAttribute(&apos;data-ignored&apos;))) {
+          continue
+        }
+
+        if (input.multiple) {
+          value = []
+          for (j in input.options) {
+            option = input.options[j]
+            if (option &amp;&amp; option.selected) {
+              value.push(v.sanitizeFormValue(option.value, options))
+            }
+          }
+        } else {
+          var _val =
+            typeof input.options[input.selectedIndex] !== &apos;undefined&apos;
+              ? input.options[input.selectedIndex].value
+              : &apos;&apos;
+          value = v.sanitizeFormValue(_val, options)
+        }
+        values[input.name] = value
+      }
+
+      return values
+    },
+
+    sanitizeFormValue: function (value, options) {
+      if (options.trim &amp;&amp; v.isString(value)) {
+        value = value.trim()
+      }
+
+      if (options.nullify !== false &amp;&amp; value === &apos;&apos;) {
+        return null
+      }
+      return value
+    },
+
+    capitalize: function (str) {
+      if (!v.isString(str)) {
+        return str
+      }
+      return str[0].toUpperCase() + str.slice(1)
+    },
+
+    // Remove all errors who&apos;s error attribute is empty (null or undefined)
+    pruneEmptyErrors: function (errors) {
+      return errors.filter(function (error) {
+        return !v.isEmpty(error.error)
+      })
+    },
+
+    // In
+    // [{error: [&quot;err1&quot;, &quot;err2&quot;], ...}]
+    // Out
+    // [{error: &quot;err1&quot;, ...}, {error: &quot;err2&quot;, ...}]
+    //
+    // All attributes in an error with multiple messages are duplicated
+    // when expanding the errors.
+    expandMultipleErrors: function (errors) {
+      var ret = []
+      errors.forEach(function (error) {
+        // Removes errors without a message
+        if (v.isArray(error.error)) {
+          error.error.forEach(function (msg) {
+            ret.push(v.extend({}, error, { error: msg }))
+          })
+        } else {
+          ret.push(error)
+        }
+      })
+      return ret
+    },
+
+    // Converts the error mesages by prepending the attribute name unless the
+    // message is prefixed by ^
+    convertErrorMessages: function (errors, options) {
+      options = options || {}
+
+      var ret = []
+
+      var prettify = options.prettify || v.prettify
+      errors.forEach(function (errorInfo) {
+        var error = v.result(
+          errorInfo.error,
+          errorInfo.value,
+          errorInfo.attribute,
+          errorInfo.options,
+          errorInfo.attributes,
+          errorInfo.globalOptions
+        )
+
+        if (!v.isString(error)) {
+          ret.push(errorInfo)
+          return
+        }
+
+        if (error[0] === &apos;^&apos;) {
+          error = error.slice(1)
+        } else if (options.fullMessages !== false) {
+          error = `${v.capitalize(prettify(errorInfo.attribute))} ${error}`
+        }
+        error = error.replace(/\\\^/g, &apos;^&apos;)
+        error = v.format(error, {
+          value: v.stringifyValue(errorInfo.value, options)
+        })
+        ret.push(v.extend({}, errorInfo, { error: error }))
+      })
+      return ret
+    },
+
+    // In:
+    // [{attribute: &quot;&lt;attributeName&gt;&quot;, ...}]
+    // Out:
+    // {&quot;&lt;attributeName&gt;&quot;: [{attribute: &quot;&lt;attributeName&gt;&quot;, ...}]}
+    groupErrorsByAttribute: function (errors) {
+      var ret = {}
+      errors.forEach(function (error) {
+        var list = ret[error.attribute]
+        if (list) {
+          list.push(error)
+        } else {
+          ret[error.attribute] = [error]
+        }
+      })
+      return ret
+    },
+
+    // In:
+    // [{error: &quot;&lt;message 1&gt;&quot;, ...}, {error: &quot;&lt;message 2&gt;&quot;, ...}]
+    // Out:
+    // [&quot;&lt;message 1&gt;&quot;, &quot;&lt;message 2&gt;&quot;]
+    flattenErrorsToArray: function (errors) {
+      return errors
+        .map(function (error) {
+          return error.error
+        })
+        .filter(function (value, index, self) {
+          return self.indexOf(value) === index
+        })
+    },
+
+    cleanAttributes: function (attributes, whitelist) {
+      function whitelistCreator (obj, key, last) {
+        if (v.isObject(obj[key])) {
+          return obj[key]
+        }
+        return (obj[key] = last ? true : {})
+      }
+
+      function buildObjectWhitelist (whitelist) {
+        var ow = {}
+
+        var lastObject
+
+        var attr
+        for (attr in whitelist) {
+          if (!whitelist[attr]) {
+            continue
+          }
+          v.forEachKeyInKeypath(ow, attr, whitelistCreator)
+        }
+        return ow
+      }
+
+      function cleanRecursive (attributes, whitelist) {
+        if (!v.isObject(attributes)) {
+          return attributes
+        }
+
+        var ret = v.extend({}, attributes)
+
+        var w
+
+        var attribute
+
+        for (attribute in attributes) {
+          w = whitelist[attribute]
+
+          if (v.isObject(w)) {
+            ret[attribute] = cleanRecursive(ret[attribute], w)
+          } else if (!w) {
+            delete ret[attribute]
+          }
+        }
+        return ret
+      }
+
+      if (!v.isObject(whitelist) || !v.isObject(attributes)) {
+        return {}
+      }
+
+      whitelist = buildObjectWhitelist(whitelist)
+      return cleanRecursive(attributes, whitelist)
+    },
+
+    exposeModule: function (validate, root, exports, module, define) {
+      if (exports) {
+        if (module &amp;&amp; module.exports) {
+          exports = module.exports = validate
+        }
+        exports.validate = validate
+      } else {
+        root.validate = validate
+        if (validate.isFunction(define) &amp;&amp; define.amd) {
+          define([], function () {
+            return validate
+          })
+        }
+      }
+    },
+
+    warn: function (msg) {
+      if (typeof console !== &apos;undefined&apos; &amp;&amp; console.warn) {
+        console.warn(`[validate.js] ${msg}`)
+      }
+    },
+
+    error: function (msg) {
+      if (typeof console !== &apos;undefined&apos; &amp;&amp; console.error) {
+        console.error(`[validate.js] ${msg}`)
+      }
+    }
+  })
+
+  validate.validators = {
+    // Presence validates that the value isn&apos;t empty
+    presence: function (value, options) {
+      options = v.extend({}, this.options, options)
+      if (
+        options.allowEmpty !== false ? !v.isDefined(value) : v.isEmpty(value)
+      ) {
+        return options.message || this.message || &quot;can&apos;t be blank&quot;
+      }
+    },
+    length: function (value, options, attribute) {
+      // Empty values are allowed
+      if (!v.isDefined(value)) {
+        return
+      }
+
+      options = v.extend({}, this.options, options)
+
+      var is = options.is
+
+      var maximum = options.maximum
+
+      var minimum = options.minimum
+
+      var tokenizer =
+          options.tokenizer ||
+          function (val) {
+            return val
+          }
+
+      var err
+
+      var errors = []
+
+      value = tokenizer(value)
+      var length = value.length
+      if (!v.isNumber(length)) {
+        v.error(
+          v.format(&apos;Attribute %{attr} has a non numeric value for `length`&apos;, {
+            attr: attribute
+          })
+        )
+        return options.message || this.notValid || &apos;has an incorrect length&apos;
+      }
+
+      // Is checks
+      if (v.isNumber(is) &amp;&amp; length !== is) {
+        err =
+          options.wrongLength ||
+          this.wrongLength ||
+          &apos;is the wrong length (should be %{count} characters)&apos;
+        errors.push(v.format(err, { count: is }))
+      }
+
+      if (v.isNumber(minimum) &amp;&amp; length &lt; minimum) {
+        err =
+          options.tooShort ||
+          this.tooShort ||
+          &apos;is too short (minimum is %{count} characters)&apos;
+        errors.push(v.format(err, { count: minimum }))
+      }
+
+      if (v.isNumber(maximum) &amp;&amp; length &gt; maximum) {
+        err =
+          options.tooLong ||
+          this.tooLong ||
+          &apos;is too long (maximum is %{count} characters)&apos;
+        errors.push(v.format(err, { count: maximum }))
+      }
+
+      if (errors.length &gt; 0) {
+        return options.message || errors
+      }
+    },
+    numericality: function (
+      value,
+      options,
+      attribute,
+      attributes,
+      globalOptions
+    ) {
+      // Empty values are fine
+      if (!v.isDefined(value)) {
+        return
+      }
+
+      options = v.extend({}, this.options, options)
+
+      var errors = []
+
+      var name
+
+      var count
+
+      var checks = {
+        greaterThan: function (v, c) {
+          return v &gt; c
+        },
+        greaterThanOrEqualTo: function (v, c) {
+          return v &gt;= c
+        },
+        equalTo: function (v, c) {
+          return v === c
+        },
+        lessThan: function (v, c) {
+          return v &lt; c
+        },
+        lessThanOrEqualTo: function (v, c) {
+          return v &lt;= c
+        },
+        divisibleBy: function (v, c) {
+          return v % c === 0
+        }
+      }
+
+      var prettify =
+          options.prettify ||
+          (globalOptions &amp;&amp; globalOptions.prettify) ||
+          v.prettify
+
+      // Strict will check that it is a valid looking number
+      if (v.isString(value) &amp;&amp; options.strict) {
+        var pattern = &apos;^-?(0|[1-9]\\d*)&apos;
+        if (!options.onlyInteger) {
+          pattern += &apos;(\\.\\d+)?&apos;
+        }
+        pattern += &apos;$&apos;
+
+        if (!new RegExp(pattern).test(value)) {
+          return (
+            options.message ||
+            options.notValid ||
+            this.notValid ||
+            this.message ||
+            &apos;must be a valid number&apos;
+          )
+        }
+      }
+
+      // Coerce the value to a number unless we&apos;re being strict.
+      if (
+        options.noStrings !== true &amp;&amp;
+        v.isString(value) &amp;&amp;
+        !v.isEmpty(value)
+      ) {
+        value = +value
+      }
+
+      // If it&apos;s not a number we shouldn&apos;t continue since it will compare it.
+      if (!v.isNumber(value)) {
+        return (
+          options.message ||
+          options.notValid ||
+          this.notValid ||
+          this.message ||
+          &apos;is not a number&apos;
+        )
+      }
+
+      // Same logic as above, sort of. Don&apos;t bother with comparisons if this
+      // doesn&apos;t pass.
+      if (options.onlyInteger &amp;&amp; !v.isInteger(value)) {
+        return (
+          options.message ||
+          options.notInteger ||
+          this.notInteger ||
+          this.message ||
+          &apos;must be an integer&apos;
+        )
+      }
+
+      for (name in checks) {
+        count = options[name]
+        if (v.isNumber(count) &amp;&amp; !checks[name](value, count)) {
+          // This picks the default message if specified
+          // For example the greaterThan check uses the message from
+          // this.notGreaterThan so we capitalize the name and prepend &quot;not&quot;
+          var key = `not${v.capitalize(name)}`
+          var msg =
+            options[key] ||
+            this[key] ||
+            this.message ||
+            &apos;must be %{type} %{count}&apos;
+
+          errors.push(
+            v.format(msg, {
+              count: count,
+              type: prettify(name)
+            })
+          )
+        }
+      }
+
+      if (options.odd &amp;&amp; value % 2 !== 1) {
+        errors.push(
+          options.notOdd || this.notOdd || this.message || &apos;must be odd&apos;
+        )
+      }
+      if (options.even &amp;&amp; value % 2 !== 0) {
+        errors.push(
+          options.notEven || this.notEven || this.message || &apos;must be even&apos;
+        )
+      }
+
+      if (errors.length) {
+        return options.message || errors
+      }
+    },
+    datetime: v.extend(
+      function (value, options) {
+        if (!v.isFunction(this.parse) || !v.isFunction(this.format)) {
+          throw new Error(
+            &apos;Both the parse and format functions needs to be set to use the datetime/date validator&apos;
+          )
+        }
+
+        // Empty values are fine
+        if (!v.isDefined(value)) {
+          return
+        }
+
+        options = v.extend({}, this.options, options)
+
+        var err
+
+        var errors = []
+
+        var earliest = options.earliest
+          ? this.parse(options.earliest, options)
+          : NaN
+
+        var latest = options.latest ? this.parse(options.latest, options) : NaN
+
+        value = this.parse(value, options)
+
+        // 86400000 is the number of milliseconds in a day, this is used to remove
+        // the time from the date
+        if (isNaN(value) || (options.dateOnly &amp;&amp; value % 86400000 !== 0)) {
+          err =
+            options.notValid ||
+            options.message ||
+            this.notValid ||
+            &apos;must be a valid date&apos;
+          return v.format(err, { value: arguments[0] })
+        }
+
+        if (!isNaN(earliest) &amp;&amp; value &lt; earliest) {
+          err =
+            options.tooEarly ||
+            options.message ||
+            this.tooEarly ||
+            &apos;must be no earlier than %{date}&apos;
+          err = v.format(err, {
+            value: this.format(value, options),
+            date: this.format(earliest, options)
+          })
+          errors.push(err)
+        }
+
+        if (!isNaN(latest) &amp;&amp; value &gt; latest) {
+          err =
+            options.tooLate ||
+            options.message ||
+            this.tooLate ||
+            &apos;must be no later than %{date}&apos;
+          err = v.format(err, {
+            date: this.format(latest, options),
+            value: this.format(value, options)
+          })
+          errors.push(err)
+        }
+
+        if (errors.length) {
+          return v.unique(errors)
+        }
+      },
+      {
+        parse: null,
+        format: null
+      }
+    ),
+    date: function (value, options) {
+      options = v.extend({}, options, { dateOnly: true })
+      return v.validators.datetime.call(v.validators.datetime, value, options)
+    },
+    format: function (value, options) {
+      if (v.isString(options) || options instanceof RegExp) {
+        options = { pattern: options }
+      }
+
+      options = v.extend({}, this.options, options)
+
+      var message = options.message || this.message || &apos;is invalid&apos;
+
+      var pattern = options.pattern
+
+      var match
+
+      // Empty values are allowed
+      if (!v.isDefined(value)) {
+        return
+      }
+      if (!v.isString(value)) {
+        return message
+      }
+
+      if (v.isString(pattern)) {
+        pattern = new RegExp(options.pattern, options.flags)
+      }
+      match = pattern.exec(value)
+      if (!match || match[0].length != value.length) {
+        return message
+      }
+    },
+    inclusion: function (value, options) {
+      // Empty values are fine
+      if (!v.isDefined(value)) {
+        return
+      }
+      if (v.isArray(options)) {
+        options = { within: options }
+      }
+      options = v.extend({}, this.options, options)
+      if (v.contains(options.within, value)) {
+        return
+      }
+      var message =
+        options.message ||
+        this.message ||
+        &apos;^%{value} is not included in the list&apos;
+      return v.format(message, { value: value })
+    },
+    exclusion: function (value, options) {
+      // Empty values are fine
+      if (!v.isDefined(value)) {
+        return
+      }
+      if (v.isArray(options)) {
+        options = { within: options }
+      }
+      options = v.extend({}, this.options, options)
+      if (!v.contains(options.within, value)) {
+        return
+      }
+      var message = options.message || this.message || &apos;^%{value} is restricted&apos;
+      return v.format(message, { value: value })
+    },
+    email: v.extend(
+      function (value, options) {
+        options = v.extend({}, this.options, options)
+        var message = options.message || this.message || &apos;is not a valid email&apos;
+        // Empty values are fine
+        if (!v.isDefined(value)) {
+          return
+        }
+        if (!v.isString(value)) {
+          return message
+        }
+        if (!this.PATTERN.exec(value)) {
+          return message
+        }
+      },
+      {
+        PATTERN: /^[a-z0-9\u007F-\uffff!#$%&amp;&apos;*+\/=?^_`{|}~-]+(?:\.[a-z0-9\u007F-\uffff!#$%&amp;&apos;*+\/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z]{2,}$/i
+      }
+    ),
+    equality: function (value, options, attribute, attributes, globalOptions) {
+      if (!v.isDefined(value)) {
+        return
+      }
+
+      if (v.isString(options)) {
+        options = { attribute: options }
+      }
+      options = v.extend({}, this.options, options)
+      var message =
+        options.message || this.message || &apos;is not equal to %{attribute}&apos;
+
+      if (v.isEmpty(options.attribute) || !v.isString(options.attribute)) {
+        throw new Error(&apos;The attribute must be a non empty string&apos;)
+      }
+
+      var otherValue = v.getDeepObjectValue(attributes, options.attribute)
+
+      var comparator =
+          options.comparator ||
+          function (v1, v2) {
+            return v1 === v2
+          }
+
+      var prettify =
+          options.prettify ||
+          (globalOptions &amp;&amp; globalOptions.prettify) ||
+          v.prettify
+
+      if (!comparator(value, otherValue, options, attribute, attributes)) {
+        return v.format(message, { attribute: prettify(options.attribute) })
+      }
+    },
+
+    // A URL validator that is used to validate URLs with the ability to
+    // restrict schemes and some domains.
+    url: function (value, options) {
+      if (!v.isDefined(value)) {
+        return
+      }
+
+      options = v.extend({}, this.options, options)
+
+      var message = options.message || this.message || &apos;is not a valid url&apos;
+
+      var schemes = options.schemes || this.schemes || [&apos;http&apos;, &apos;https&apos;]
+
+      var allowLocal = options.allowLocal || this.allowLocal || false
+
+      if (!v.isString(value)) {
+        return message
+      }
+
+      // https://gist.github.com/dperini/729294
+      var regex =
+        `${&apos;^&apos; +
+          // protocol identifier
+          &apos;(?:(?:&apos;}${schemes.join(&apos;|&apos;)})://)` +
+        // user:pass authentication
+        `(?:\\S+(?::\\S*)?@)?` +
+        `(?:`
+
+      var tld = &apos;(?:\\.(?:[a-z\\u00a1-\\uffff]{2,}))&apos;
+
+      if (allowLocal) {
+        tld += &apos;?&apos;
+      } else {
+        regex +=
+          // IP address exclusion
+          // private &amp; local networks
+          &apos;(?!(?:10|127)(?:\\.\\d{1,3}){3})&apos; +
+          &apos;(?!(?:169\\.254|192\\.168)(?:\\.\\d{1,3}){2})&apos; +
+          &apos;(?!172\\.(?:1[6-9]|2\\d|3[0-1])(?:\\.\\d{1,3}){2})&apos;
+      }
+
+      regex +=
+        // IP address dotted notation octets
+        // excludes loopback network 0.0.0.0
+        // excludes reserved space &gt;= 224.0.0.0
+        // excludes network &amp; broacast addresses
+        // (first &amp; last IP address of each class)
+        `${&apos;(?:[1-9]\\d?|1\\d\\d|2[01]\\d|22[0-3])&apos; +
+          &apos;(?:\\.(?:1?\\d{1,2}|2[0-4]\\d|25[0-5])){2}&apos; +
+          &apos;(?:\\.(?:[1-9]\\d?|1\\d\\d|2[0-4]\\d|25[0-4]))&apos; +
+          &apos;|&apos; +
+          // host name
+          &apos;(?:(?:[a-z\\u00a1-\\uffff0-9]-*)*[a-z\\u00a1-\\uffff0-9]+)&apos; +
+          // domain name
+          &apos;(?:\\.(?:[a-z\\u00a1-\\uffff0-9]-*)*[a-z\\u00a1-\\uffff0-9]+)*&apos;}${tld})` +
+        // port number
+        `(?::\\d{2,5})?` +
+        // resource path
+        `(?:[/?#]\\S*)?` +
+        `$`
+
+      var PATTERN = new RegExp(regex, &apos;i&apos;)
+      if (!PATTERN.exec(value)) {
+        return message
+      }
+    }
+  }
+
+  validate.formatters = {
+    detailed: function (errors) {
+      return errors
+    },
+    flat: v.flattenErrorsToArray,
+    grouped: function (errors) {
+      var attr
+
+      errors = v.groupErrorsByAttribute(errors)
+      for (attr in errors) {
+        errors[attr] = v.flattenErrorsToArray(errors[attr])
+      }
+      return errors
+    },
+    constraint: function (errors) {
+      var attr
+      errors = v.groupErrorsByAttribute(errors)
+      for (attr in errors) {
+        errors[attr] = errors[attr]
+          .map(function (result) {
+            return result.validator
+          })
+          .sort()
+      }
+      return errors
+    }
+  }
+
+  validate.exposeModule(validate, this, exports, module, define)
+}.call(
+  this,
+  typeof exports !== &apos;undefined&apos; ? /* istanbul ignore next */ exports : null,
+  typeof module !== &apos;undefined&apos; ? /* istanbul ignore next */ module : null,
+  typeof define !== &apos;undefined&apos; ? /* istanbul ignore next */ define : null
+))
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

@@ -1,0 +1,343 @@
+{
+  "coverage": "28.14%",
+  "expectCount": 135,
+  "actualCount": 38,
+  "files": {
+    "src/assets/components/services/firebaseMessaging/index.js": {
+      "expectCount": 5,
+      "actualCount": 5,
+      "undocumentLines": []
+    },
+    "src/assets/components/services/notification/actionTypes.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        2,
+        3
+      ]
+    },
+    "src/assets/components/services/notification/actions.js": {
+      "expectCount": 6,
+      "actualCount": 5,
+      "undocumentLines": [
+        7
+      ]
+    },
+    "src/assets/components/services/notification/components/withNotifications.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        5
+      ]
+    },
+    "src/assets/components/services/renderErrror/errorHandler.js": {
+      "expectCount": 4,
+      "actualCount": 4,
+      "undocumentLines": []
+    },
+    "src/assets/layout/AdminNav (future)/subNav.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        3
+      ]
+    },
+    "src/controllers/config/index.js": {
+      "expectCount": 6,
+      "actualCount": 1,
+      "undocumentLines": [
+        1,
+        22,
+        55,
+        56,
+        57
+      ]
+    },
+    "src/controllers/constants/roles.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        2
+      ]
+    },
+    "src/controllers/constants/routes.js": {
+      "expectCount": 16,
+      "actualCount": 1,
+      "undocumentLines": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    "src/controllers/reducers/BackEnd/location.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        4,
+        9,
+        19,
+        26,
+        27
+      ]
+    },
+    "src/controllers/reducers/BackEnd/reduxPersist.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        13,
+        20
+      ]
+    },
+    "src/controllers/reducers/frontend/authReducer/authReducer.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        9
+      ]
+    },
+    "src/controllers/reducers/frontend/email.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        14,
+        80,
+        87
+      ]
+    },
+    "src/controllers/reducers/index.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        11,
+        13,
+        25
+      ]
+    },
+    "src/controllers/reducers/mail/active.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        2
+      ]
+    },
+    "src/controllers/reducers/mail/emails.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        2,
+        4
+      ]
+    },
+    "src/controllers/reducers/mail/errors.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        3
+      ]
+    },
+    "src/controllers/reducers/mail/recipient.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        2
+      ]
+    },
+    "src/controllers/reducers/mail/sender.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        2
+      ]
+    },
+    "src/controllers/routes/pubMenu1.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        36
+      ]
+    },
+    "src/controllers/routes/pubMenu2.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        40
+      ]
+    },
+    "src/controllers/store/configureStore.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        14
+      ]
+    },
+    "src/serviceworker.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        13,
+        23,
+        57,
+        101,
+        129
+      ]
+    },
+    "src/tools/authCheck.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        7,
+        9,
+        11,
+        27,
+        43,
+        45
+      ]
+    },
+    "src/tools/hoc/withApp.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        4
+      ]
+    },
+    "src/tools/hoc/withStore.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        4
+      ]
+    },
+    "src/utils/ScrollToTop.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        4,
+        5,
+        9
+      ]
+    },
+    "src/utils/createReducer.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    },
+    "src/utils/firebaseMessaging.js": {
+      "expectCount": 5,
+      "actualCount": 5,
+      "undocumentLines": []
+    },
+    "src/utils/index.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "src/utils/loginValidate.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "src/utils/reducerUtil.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    },
+    "src/utils/unused store/analytics.js": {
+      "expectCount": 6,
+      "actualCount": 6,
+      "undocumentLines": []
+    },
+    "src/z.Adopted  Templates/templates/Firebase_API-Cheatsheet.js": {
+      "expectCount": 5,
+      "actualCount": 3,
+      "undocumentLines": [
+        253,
+        295
+      ]
+    },
+    "src/z.Possible Use Case Templates/todo tasks/Server/server.js": {
+      "expectCount": 8,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15
+      ]
+    },
+    "src/z.Possible Use Case Templates/todo tasks/errorHandler.js": {
+      "expectCount": 4,
+      "actualCount": 4,
+      "undocumentLines": []
+    },
+    "src/z.Possible Use Case Templates/todo tasks/mail/actions/index.js": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        5,
+        7,
+        10,
+        15
+      ]
+    },
+    "src/z.Possible Use Case Templates/todo tasks/mail/actions/types.js": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "src/z.Possible Use Case Templates/todo tasks/mail/reducers/email.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        14,
+        80,
+        87
+      ]
+    },
+    "src/z.Possible Use Case Templates/todo tasks/mail/reducers/index.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        4
+      ]
+    },
+    "src/z.Possible Use Case Templates/todo tasks/socket-io firebaseadmin/socket-io-fbAdminMiddleware.js": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        8,
+        10,
+        12,
+        16
+      ]
+    }
+  }
+}

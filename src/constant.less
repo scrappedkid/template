@@ -1,0 +1,143 @@
+//Variable
+@valueNone: none;
+@valueDefault: 50px;
+@nullValue: 0;
+@valueTransparent: transparent;
+@valueAuto: auto;
+@valueFullpercent: 100%;
+@rootFont: 1em;
+@overflowHidden: hidden;
+@evenValue: 2px;
+@oddValue: 3px;
+@evenUnit: 2em;
+@oddUnit: 3em;
+@fontColor: #2d3446;
+
+//Media Devices
+@break-large-devices: 1220px;
+@tab-devices: 990px;
+@break-smal-devices: 780px;
+@break-mobile-devices: 767px;
+@break-small-mobile-devices: 479px;
+@break-ExtraSmall-mobile-devices:359px;
+
+//Globar Color variable
+@primaryWhite: #fff;
+@_Lightgray: #f1f4f5;
+@_LightgraybitMore: #ebebeb;
+@teal: #00b5ad;
+@blue: #2185d0;
+
+//calender variable
+@calenderFontColor: #788195;
+@calenderborderColor: #ebebeb;
+@calenderHighlightCell: #f9f9f9;
+
+//Mixing
+.commonTransition (@trans) {
+  -moz-transition: @trans;
+  -o-transition: @trans;
+  -webkit-transition: @trans;
+  transition: @trans;
+}
+
+.customizeSegment(@box_shadow, @margin_value,@border_radius,@top, @bottom, @left, @right) {
+  box-shadow: @box_shadow;
+  margin: @margin_value;
+  border-radius: @border_radius;
+  border-top: @top;
+  border-left: @left;
+  border-right: @right;
+  border-bottom: @bottom;
+}
+
+.disableSegmentUi {
+  border: @valueNone;
+  box-shadow: @valueNone;
+  border-radius: @nullValue;
+  padding: @nullValue;
+}
+.commonFlexProperies (@d_flex, @a_item, @j_content,@f_shrink, @f_direction ) {
+  display: @d_flex;
+  align-items: @a_item;
+  justify-content: @j_content;
+  flex-shrink: @f_shrink;
+  flex-direction:  @f_direction;
+}
+
+.commonSegmentUi(@backGround,@borderValue, @boxShadowValue, @borderRadiusValue, @paddingValue, @marginT, @marginB, @marginL, @marginR) {
+  background: @backGround;
+  border: @borderValue;
+  box-shadow: @boxShadowValue;
+  border-radius: @borderRadiusValue;
+  padding: @paddingValue;
+  margin-right:@marginR;
+  margin-left: @marginL;
+  margin-top: @marginT;
+  margin-bottom: @marginB;
+}
+
+.box_shadow(@shadowValue) {
+  box-shadow: @shadowValue;
+ }
+
+.disableLableSementic {
+  border-radius: 0;
+  background-color: transparent;
+  padding: 0;
+}
+.disableMessageSementic {
+  margin-top: 0;
+  border-radius: 0;
+  background-color: #fff;
+  box-shadow: none;
+}
+.layOutFixed {
+  position: fixed;
+  overflow-y: hidden;
+  width: 100%;
+}
+.commonScrollWrapper {
+  z-index: 2;
+  height: 100vh;
+}
+.CommonModuleWrapper {
+  height: calc(100vh - 138px);
+  @media (max-width:768px ) {
+    height: calc(100vh - 150px);
+  }
+}
+.CommonModuleToggleHeader {
+  height: calc(100vh -62px);
+  @media (max-width:768px ) {
+    height: calc(100vh -76px);
+  }
+}
+
+.possitonDirection(@Position,@Top,@Bottom,@Left,@Right) {
+  position: @Position;
+  top: @Top;
+  bottom: @Bottom;
+  left: @Left;
+  right: @Right;
+}
+.directionalBorder(@borderTop, @borderBottom, @borderLeft, @borderRight) {
+  border-top: @borderTop;
+  border-bottom: @borderBottom;
+  border-left: @borderLeft;
+  border-right: @borderRight;
+}
+.borderRadusNull {
+  border-radius: @nullValue !important;
+}
+
+.alignItemCenter {
+  align-items:center;
+  }
+
+  .commonMargin (@marginTop, @marginLeft,@marginBottom, @marginRight) {
+    margin-top: @marginTop;
+    margin-left: @marginLeft;
+    margin-bottom: @marginBottom;
+    margin-right: @marginRight;
+  }

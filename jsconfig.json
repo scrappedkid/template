@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@root": ["/src"],
+      "@config": ["/src/config"],
+      "@semantic": ["/src/styles"],
+      "@services": ["/src/services"],
+      "@components": ["/src/components"],
+      "@actions": ["/src/redux/actions"],
+      "@cntrollers": ["/src/controllers"],
+      "@reducers": ["/src/controllers/reducers"],
+      "@router": ["/src/controllers/router"],
+      "@store": ["/src/controllers/store"],
+      "@layout": ["/src/assets/layout"],
+      "@routes": ["/src/controllers/routes"],
+      "@tests": ["/src/tests"],
+      "@tools": ["/src/tools"],
+      "@utils": ["/src/utils"],
+      "@pages": ["/src/pages"]
+    }
+  },
+  "exclude": [
+    "node_modulesbak",
+    "node_modules",
+    "dist"
+  ]
+}

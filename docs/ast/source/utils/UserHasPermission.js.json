@@ -1,0 +1,114 @@
+{
+  "type": "File",
+  "start": 0,
+  "end": 971,
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 24,
+      "column": 0
+    }
+  },
+  "program": {
+    "type": "Program",
+    "start": 0,
+    "end": 971,
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 24,
+        "column": 0
+      }
+    },
+    "sourceType": "module",
+    "body": [],
+    "directives": [],
+    "leadingComments": null,
+    "innerComments": [
+      {
+        "type": "CommentBlock",
+        "value": " import locationHelperBuilder from 'redux-auth-wrapper/history4/locationHelper'\nimport { browserHistory } from 'react-router'\nimport LoadingSpinner from '@assets/layout/LoadingSpinner' // change it to your custom component\n\nconst locationHelper = locationHelperBuilder({})\n\nexport const UserHasPermission = permission =>\n  UserAuthWrapper({\n    wrapperDisplayName: 'UserHasPermission',\n    AuthenticatingComponent: LoadingSpinner,\n    allowRedirectBack: false,\n    redirectPath: (state, ownProps) =>\n      locationHelper.getRedirectQueryParam(ownProps) || '/login',\n    authenticatingSelector: ({ firebase: { auth, isInitializing } }) =>\n      !auth.isLoaded || !profile.isLoaded || isInitializing === true,\n    authenticatedSelector: ({ firebase: { auth } }) =>\n      auth.isLoaded && !auth.isEmpty,\n    redirectAction: newLoc => dispatch => {\n      browserHistory.replace(newLoc) // or routerActions.replace\n      dispatch({ type: UNAUTHED_REDIRECT })\n    }\n  })\n ",
+        "start": 0,
+        "end": 970,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 23,
+            "column": 3
+          }
+        }
+      }
+    ]
+  },
+  "comments": [
+    {
+      "type": "CommentBlock",
+      "value": " import locationHelperBuilder from 'redux-auth-wrapper/history4/locationHelper'\nimport { browserHistory } from 'react-router'\nimport LoadingSpinner from '@assets/layout/LoadingSpinner' // change it to your custom component\n\nconst locationHelper = locationHelperBuilder({})\n\nexport const UserHasPermission = permission =>\n  UserAuthWrapper({\n    wrapperDisplayName: 'UserHasPermission',\n    AuthenticatingComponent: LoadingSpinner,\n    allowRedirectBack: false,\n    redirectPath: (state, ownProps) =>\n      locationHelper.getRedirectQueryParam(ownProps) || '/login',\n    authenticatingSelector: ({ firebase: { auth, isInitializing } }) =>\n      !auth.isLoaded || !profile.isLoaded || isInitializing === true,\n    authenticatedSelector: ({ firebase: { auth } }) =>\n      auth.isLoaded && !auth.isEmpty,\n    redirectAction: newLoc => dispatch => {\n      browserHistory.replace(newLoc) // or routerActions.replace\n      dispatch({ type: UNAUTHED_REDIRECT })\n    }\n  })\n ",
+      "start": 0,
+      "end": 970,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 23,
+          "column": 3
+        }
+      }
+    }
+  ],
+  "tokens": [
+    {
+      "type": "CommentBlock",
+      "value": " import locationHelperBuilder from 'redux-auth-wrapper/history4/locationHelper'\nimport { browserHistory } from 'react-router'\nimport LoadingSpinner from '@assets/layout/LoadingSpinner' // change it to your custom component\n\nconst locationHelper = locationHelperBuilder({})\n\nexport const UserHasPermission = permission =>\n  UserAuthWrapper({\n    wrapperDisplayName: 'UserHasPermission',\n    AuthenticatingComponent: LoadingSpinner,\n    allowRedirectBack: false,\n    redirectPath: (state, ownProps) =>\n      locationHelper.getRedirectQueryParam(ownProps) || '/login',\n    authenticatingSelector: ({ firebase: { auth, isInitializing } }) =>\n      !auth.isLoaded || !profile.isLoaded || isInitializing === true,\n    authenticatedSelector: ({ firebase: { auth } }) =>\n      auth.isLoaded && !auth.isEmpty,\n    redirectAction: newLoc => dispatch => {\n      browserHistory.replace(newLoc) // or routerActions.replace\n      dispatch({ type: UNAUTHED_REDIRECT })\n    }\n  })\n ",
+      "start": 0,
+      "end": 970,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 23,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "eof",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 971,
+      "end": 971,
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 0
+        },
+        "end": {
+          "line": 24,
+          "column": 0
+        }
+      }
+    }
+  ]
+}

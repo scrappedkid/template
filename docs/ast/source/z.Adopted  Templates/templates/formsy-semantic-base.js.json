@@ -1,0 +1,1013 @@
+{
+  "type": "File",
+  "start": 0,
+  "end": 114,
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 4,
+      "column": 0
+    }
+  },
+  "program": {
+    "type": "Program",
+    "start": 0,
+    "end": 114,
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 4,
+        "column": 0
+      }
+    },
+    "sourceType": "module",
+    "body": [
+      {
+        "type": "ImportDeclaration",
+        "start": 0,
+        "end": 113,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 3,
+            "column": 33
+          }
+        },
+        "specifiers": [
+          {
+            "type": "ImportSpecifier",
+            "start": 11,
+            "end": 15,
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 2
+              },
+              "end": {
+                "line": 2,
+                "column": 6
+              }
+            },
+            "imported": {
+              "type": "Identifier",
+              "start": 11,
+              "end": 15,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 2
+                },
+                "end": {
+                  "line": 2,
+                  "column": 6
+                },
+                "identifierName": "Form"
+              },
+              "name": "Form"
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 11,
+              "end": 15,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 2
+                },
+                "end": {
+                  "line": 2,
+                  "column": 6
+                },
+                "identifierName": "Form"
+              },
+              "name": "Form"
+            }
+          },
+          {
+            "type": "ImportSpecifier",
+            "start": 17,
+            "end": 22,
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 8
+              },
+              "end": {
+                "line": 2,
+                "column": 13
+              }
+            },
+            "imported": {
+              "type": "Identifier",
+              "start": 17,
+              "end": 22,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 8
+                },
+                "end": {
+                  "line": 2,
+                  "column": 13
+                },
+                "identifierName": "Input"
+              },
+              "name": "Input"
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 17,
+              "end": 22,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 8
+                },
+                "end": {
+                  "line": 2,
+                  "column": 13
+                },
+                "identifierName": "Input"
+              },
+              "name": "Input"
+            }
+          },
+          {
+            "type": "ImportSpecifier",
+            "start": 24,
+            "end": 32,
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 15
+              },
+              "end": {
+                "line": 2,
+                "column": 23
+              }
+            },
+            "imported": {
+              "type": "Identifier",
+              "start": 24,
+              "end": 32,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 15
+                },
+                "end": {
+                  "line": 2,
+                  "column": 23
+                },
+                "identifierName": "TextArea"
+              },
+              "name": "TextArea"
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 24,
+              "end": 32,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 15
+                },
+                "end": {
+                  "line": 2,
+                  "column": 23
+                },
+                "identifierName": "TextArea"
+              },
+              "name": "TextArea"
+            }
+          },
+          {
+            "type": "ImportSpecifier",
+            "start": 34,
+            "end": 42,
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 25
+              },
+              "end": {
+                "line": 2,
+                "column": 33
+              }
+            },
+            "imported": {
+              "type": "Identifier",
+              "start": 34,
+              "end": 42,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 25
+                },
+                "end": {
+                  "line": 2,
+                  "column": 33
+                },
+                "identifierName": "Checkbox"
+              },
+              "name": "Checkbox"
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 34,
+              "end": 42,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 25
+                },
+                "end": {
+                  "line": 2,
+                  "column": 33
+                },
+                "identifierName": "Checkbox"
+              },
+              "name": "Checkbox"
+            }
+          },
+          {
+            "type": "ImportSpecifier",
+            "start": 44,
+            "end": 49,
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 35
+              },
+              "end": {
+                "line": 2,
+                "column": 40
+              }
+            },
+            "imported": {
+              "type": "Identifier",
+              "start": 44,
+              "end": 49,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 35
+                },
+                "end": {
+                  "line": 2,
+                  "column": 40
+                },
+                "identifierName": "Radio"
+              },
+              "name": "Radio"
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 44,
+              "end": 49,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 35
+                },
+                "end": {
+                  "line": 2,
+                  "column": 40
+                },
+                "identifierName": "Radio"
+              },
+              "name": "Radio"
+            }
+          },
+          {
+            "type": "ImportSpecifier",
+            "start": 51,
+            "end": 61,
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 42
+              },
+              "end": {
+                "line": 2,
+                "column": 52
+              }
+            },
+            "imported": {
+              "type": "Identifier",
+              "start": 51,
+              "end": 61,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 42
+                },
+                "end": {
+                  "line": 2,
+                  "column": 52
+                },
+                "identifierName": "RadioGroup"
+              },
+              "name": "RadioGroup"
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 51,
+              "end": 61,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 42
+                },
+                "end": {
+                  "line": 2,
+                  "column": 52
+                },
+                "identifierName": "RadioGroup"
+              },
+              "name": "RadioGroup"
+            }
+          },
+          {
+            "type": "ImportSpecifier",
+            "start": 63,
+            "end": 71,
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 54
+              },
+              "end": {
+                "line": 2,
+                "column": 62
+              }
+            },
+            "imported": {
+              "type": "Identifier",
+              "start": 63,
+              "end": 71,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 54
+                },
+                "end": {
+                  "line": 2,
+                  "column": 62
+                },
+                "identifierName": "Dropdown"
+              },
+              "name": "Dropdown"
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 63,
+              "end": 71,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 54
+                },
+                "end": {
+                  "line": 2,
+                  "column": 62
+                },
+                "identifierName": "Dropdown"
+              },
+              "name": "Dropdown"
+            }
+          },
+          {
+            "type": "ImportSpecifier",
+            "start": 73,
+            "end": 79,
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 64
+              },
+              "end": {
+                "line": 2,
+                "column": 70
+              }
+            },
+            "imported": {
+              "type": "Identifier",
+              "start": 73,
+              "end": 79,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 64
+                },
+                "end": {
+                  "line": 2,
+                  "column": 70
+                },
+                "identifierName": "Select"
+              },
+              "name": "Select"
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 73,
+              "end": 79,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 64
+                },
+                "end": {
+                  "line": 2,
+                  "column": 70
+                },
+                "identifierName": "Select"
+              },
+              "name": "Select"
+            }
+          }
+        ],
+        "source": {
+          "type": "StringLiteral",
+          "start": 87,
+          "end": 113,
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 7
+            },
+            "end": {
+              "line": 3,
+              "column": 33
+            }
+          },
+          "extra": {
+            "rawValue": "formsy-semantic-ui-react",
+            "raw": "'formsy-semantic-ui-react'"
+          },
+          "value": "formsy-semantic-ui-react"
+        }
+      }
+    ],
+    "directives": []
+  },
+  "comments": [],
+  "tokens": [
+    {
+      "type": {
+        "label": "import",
+        "keyword": "import",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "import",
+      "start": 0,
+      "end": 6,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 7,
+      "end": 8,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 7
+        },
+        "end": {
+          "line": 1,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "Form",
+      "start": 11,
+      "end": 15,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 2
+        },
+        "end": {
+          "line": 2,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 15,
+      "end": 16,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 6
+        },
+        "end": {
+          "line": 2,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "Input",
+      "start": 17,
+      "end": 22,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 8
+        },
+        "end": {
+          "line": 2,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 22,
+      "end": 23,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 13
+        },
+        "end": {
+          "line": 2,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "TextArea",
+      "start": 24,
+      "end": 32,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 15
+        },
+        "end": {
+          "line": 2,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 32,
+      "end": 33,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 23
+        },
+        "end": {
+          "line": 2,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "Checkbox",
+      "start": 34,
+      "end": 42,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 25
+        },
+        "end": {
+          "line": 2,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 42,
+      "end": 43,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 33
+        },
+        "end": {
+          "line": 2,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "Radio",
+      "start": 44,
+      "end": 49,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 35
+        },
+        "end": {
+          "line": 2,
+          "column": 40
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 49,
+      "end": 50,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 40
+        },
+        "end": {
+          "line": 2,
+          "column": 41
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "RadioGroup",
+      "start": 51,
+      "end": 61,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 42
+        },
+        "end": {
+          "line": 2,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 61,
+      "end": 62,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 52
+        },
+        "end": {
+          "line": 2,
+          "column": 53
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "Dropdown",
+      "start": 63,
+      "end": 71,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 54
+        },
+        "end": {
+          "line": 2,
+          "column": 62
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 71,
+      "end": 72,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 62
+        },
+        "end": {
+          "line": 2,
+          "column": 63
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "Select",
+      "start": 73,
+      "end": 79,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 64
+        },
+        "end": {
+          "line": 2,
+          "column": 70
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 80,
+      "end": 81,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "from",
+      "start": 82,
+      "end": 86,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 2
+        },
+        "end": {
+          "line": 3,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "formsy-semantic-ui-react",
+      "start": 87,
+      "end": 113,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 7
+        },
+        "end": {
+          "line": 3,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "eof",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 114,
+      "end": 114,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 0
+        }
+      }
+    }
+  ]
+}

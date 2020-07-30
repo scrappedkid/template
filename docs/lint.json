@@ -1,0 +1,34 @@
+[
+  {
+    "name": "dismissNotification",
+    "filePath": "src/assets/components/services/notification/actions.js",
+    "lines": [
+      {
+        "lineNumber": 50,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 51,
+        "line": " * Dismiss a notification by the given id."
+      },
+      {
+        "lineNumber": 52,
+        "line": " * @param {Number} id - notification id"
+      },
+      {
+        "lineNumber": 53,
+        "line": " */"
+      },
+      {
+        "lineNumber": 54,
+        "line": "export function dismissNotification (payload) {"
+      }
+    ],
+    "codeParams": [
+      "payload"
+    ],
+    "docParams": [
+      "id"
+    ]
+  }
+]

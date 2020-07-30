@@ -1,0 +1,50 @@
+/*******************************
+     User Global Variables
+     Check http://learnsemantic.com/developing/customizing.html
+*******************************/
+/*******************************
+     User Global Variables
+*******************************/
+
+@pageMinWidth  : 340px;
+@pageOverflowX : visible;
+
+@emSize: 14px;
+@fontSize : 14px;
+@fontName : 'Quicksand';
+@importGoogleFonts : true;
+
+@bigSize : (18 / 13);
+
+@h1: 2.25em;
+
+@defaultBorderRadius: 0.12em;
+
+@disabledOpacity: 0.3;
+
+/* Colors */
+@blue: #80A6CD;
+@green: rgb(67, 114, 51);
+@orange: #D26911;
+@black: rgb(55, 50, 50);
+@primaryColor: @black;
+@secondaryColor: rgb(77, 75, 73);
+
+/* Links */
+@linkColor: #4078C0;
+@linkHoverColor: @linkColor;
+@linkHoverUnderline: no-underline;
+
+/* Borders */
+@selectedBorderColor: #51A7E8;
+
+/* Breakpoints */
+@largeMonitorBreakpoint: 1049px;
+@computerBreakpoint: @largeMonitorBreakpoint;
+@tabletBreakpoint: @largeMonitorBreakpoint;
+
+@infoBackgroundColor: #E6F1F6;
+
+@infoTextColor: #4E575B;
+@warningTextColor: #613A00;
+@errorTextColor: #991111;

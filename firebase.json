@@ -1,0 +1,38 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": {
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "jsconfig.json",
+      "cypress/**"
+    ],
+    "rewrites": [{
+      "source": "**",
+      "destination": "/index.html"
+    }]
+  },
+  "functions": {
+    "predeploy": [
+      "npm run build"
+    ],
+    "ignore": [
+      "**/.*",
+      "**/*.spec.js",
+      "src",
+      "scripts/**",
+      "jsconfig.json"
+    ]
+  }
+}

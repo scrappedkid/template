@@ -1,0 +1,11 @@
+
+.email-subject-edit {
+    border: none;
+    box-shadow: none;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+.email-subject-edit:hover {
+  border : 1px solid #ccc;
+  box-shadow: inset 0 1px 3px #ddd;
+}

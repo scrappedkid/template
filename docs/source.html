@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href>
+  <title data-ice="title">Source | allineed.app</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-register">register</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-unregister">unregister</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#assets-components-services-firebasemessaging">assets/components/services/firebaseMessaging</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-initializeMessaging">initializeMessaging</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-requestPermission">requestPermission</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#assets-components-services-notification">assets/components/services/notification</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-clearNotifications">clearNotifications</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-dismissNotification">dismissNotification</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-showError">showError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-showNotification">showNotification</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-showSuccess">showSuccess</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-NOTIFICATION_CLEAR">NOTIFICATION_CLEAR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-NOTIFICATION_DISMISS">NOTIFICATION_DISMISS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-NOTIFICATION_SHOW">NOTIFICATION_SHOW</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#assets-components-services-notification-components">assets/components/services/notification/components</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-withNotifications">withNotifications</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#assets-components-services-rendererrror">assets/components/services/renderErrror</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-init">init</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setErrorUser">setErrorUser</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#assets-layout-adminnav--future-">assets/layout/AdminNav (future)</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-subNav">subNav</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#controllers-config">controllers/config</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-analyticsTrackingId">analyticsTrackingId</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-env">env</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-fbConfig">fbConfig</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-publicVapidKey">publicVapidKey</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-rrfConfig">rrfConfig</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-sentryDsn">sentryDsn</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#controllers-constants">controllers/constants</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ADMIN">ADMIN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MEMBER">MEMBER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ACCOUNT">ACCOUNT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ADMIN">ADMIN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ADMIN_DETAILS">ADMIN_DETAILS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-DASH">DASH</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-HOME">HOME</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-LANDING">LANDING</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MAILBOX">MAILBOX</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MAILBOX_DRAFT">MAILBOX_DRAFT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MAILBOX_IMPORTANT">MAILBOX_IMPORTANT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MAILBOX_INBOX">MAILBOX_INBOX</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MAILBOX_SENT">MAILBOX_SENT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MAILBOX_STARRED">MAILBOX_STARRED</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MAILBOX_TRASH">MAILBOX_TRASH</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-PASSWORD_FORGET">PASSWORD_FORGET</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SIGN_IN">SIGN_IN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SIGN_UP">SIGN_UP</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#controllers-reducers">controllers/reducers</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-injectReducer">injectReducer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-rootReducer">rootReducer</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#controllers-reducers-backend">controllers/reducers/BackEnd</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-locationChange">locationChange</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-locationReducer">locationReducer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateLocation">updateLocation</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-LOCATION_CHANGE">LOCATION_CHANGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-persistore">persistore</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#controllers-reducers-frontend">controllers/reducers/frontend</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-emailReducer">emailReducer</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#controllers-reducers-frontend-authreducer">controllers/reducers/frontend/authReducer</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-authReducer">authReducer</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#controllers-reducers-mail">controllers/reducers/mail</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-active">active</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-emails">emails</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-errors">errors</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-recipient">recipient</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sender">sender</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#controllers-routes">controllers/routes</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-pubMenu1">pubMenu1</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-pubMenu2">pubMenu2</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#controllers-store">controllers/store</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-configureStore">configureStore</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#tools">tools</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-UserHasPermission">UserHasPermission</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-UserIsAuthenticated">UserIsAuthenticated</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-UserIsNotAuthenticated">UserIsNotAuthenticated</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#tools-hoc">tools/hoc</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-withApp">withApp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-withStore">withStore</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#utils">utils</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-createReducer">createReducer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-initializeMessaging">initializeMessaging</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-requestPermission">requestPermission</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-fpLog">fpLog</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-initScripts">initScripts</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-required">required</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-validateEmail">validateEmail</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-createReducer">createReducer</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#utils-unused-store">utils/unused store</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-init">init</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setAnalyticsUser">setAnalyticsUser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-trackRouteUpdate">trackRouteUpdate</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-triggerAnalyticsEvent">triggerAnalyticsEvent</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#z-adopted--templates-templates">z.Adopted  Templates/templates</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-actionTypes">actionTypes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-actionsPrefix">actionsPrefix</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-defaultConfig">defaultConfig</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-supportedAuthProviders">supportedAuthProviders</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-topLevelPaths">topLevelPaths</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#z-possible-use-case-templates-todo-tasks">z.Possible Use Case Templates/todo tasks</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-init">init</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setErrorUser">setErrorUser</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#z-possible-use-case-templates-todo-tasks-mail-actions">z.Possible Use Case Templates/todo tasks/mail/actions</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-selectEmail">selectEmail</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-selectGroup">selectGroup</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sendEmail">sendEmail</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-setForm">setForm</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SELECT_EMAIL">SELECT_EMAIL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SELECT_GROUP">SELECT_GROUP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SEND_EMAIL">SEND_EMAIL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SET_FORM">SET_FORM</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#z-possible-use-case-templates-todo-tasks-mail-reducers">z.Possible Use Case Templates/todo tasks/mail/reducers</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-emailReducer">emailReducer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-reducer">reducer</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1>Source <img data-ice="coverageBadge" src="./badge.svg"><span data-ice="totalCoverageCount" class="total-coverage-count">38/135</span></h1>
+
+<table class="files-summary" data-ice="files" data-use-coverage="true">
+  <thead>
+    <tr>
+      <td>File</td>
+      <td>Identifier</td>
+      <td class="coverage">Document</td>
+      <td style="display: none;">Size</td>
+      <td style="display: none;">Lines</td>
+      <td style="display: none;">Updated</td>
+    </tr>
+  </thead>
+  <tbody>
+
+  <tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/assets/components/Messages/index.js.html">src/assets/components/Messages/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">58 byte</td>
+      <td style="display: none;" data-ice="lines">2</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/assets/components/services/firebaseMessaging/index.js.html">src/assets/components/services/firebaseMessaging/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-initializeMessaging">initializeMessaging</a></span>
+<span><a href="function/index.html#static-function-requestPermission">requestPermission</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">5/5</span></td>
+      <td style="display: none;" data-ice="size">3001 byte</td>
+      <td style="display: none;" data-ice="lines">110</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/assets/components/services/notification/actionTypes.js.html#errorLines=1,2,3">src/assets/components/services/notification/actionTypes.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-NOTIFICATION_CLEAR">NOTIFICATION_CLEAR</a></span>
+<span><a href="variable/index.html#static-variable-NOTIFICATION_DISMISS">NOTIFICATION_DISMISS</a></span>
+<span><a href="variable/index.html#static-variable-NOTIFICATION_SHOW">NOTIFICATION_SHOW</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/3</span></td>
+      <td style="display: none;" data-ice="size">167 byte</td>
+      <td style="display: none;" data-ice="lines">3</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/assets/components/services/notification/actions.js.html#errorLines=7">src/assets/components/services/notification/actions.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-clearNotifications">clearNotifications</a></span>
+<span><a href="function/index.html#static-function-dismissNotification">dismissNotification</a></span>
+<span><a href="function/index.html#static-function-showError">showError</a></span>
+<span><a href="function/index.html#static-function-showNotification">showNotification</a></span>
+<span><a href="function/index.html#static-function-showSuccess">showSuccess</a></span></td>
+      <td class="coverage"><span data-ice="coverage">83 %</span><span data-ice="coverageCount" class="coverage-count">5/6</span></td>
+      <td style="display: none;" data-ice="size">1701 byte</td>
+      <td style="display: none;" data-ice="lines">67</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/assets/components/services/notification/components/withNotifications.js.html#errorLines=5">src/assets/components/services/notification/components/withNotifications.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-withNotifications">withNotifications</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/1</span></td>
+      <td style="display: none;" data-ice="size">507 byte</td>
+      <td style="display: none;" data-ice="lines">15</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/assets/components/services/notification/index.js.html">src/assets/components/services/notification/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">322 byte</td>
+      <td style="display: none;" data-ice="lines">8</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/assets/components/services/renderErrror/errorHandler.js.html">src/assets/components/services/renderErrror/errorHandler.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-init">init</a></span>
+<span><a href="function/index.html#static-function-setErrorUser">setErrorUser</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">4/4</span></td>
+      <td style="display: none;" data-ice="size">1867 byte</td>
+      <td style="display: none;" data-ice="lines">75</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/assets/layout/AdminNav (future)/subNav.js.html#errorLines=3">src/assets/layout/AdminNav (future)/subNav.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-subNav">subNav</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/1</span></td>
+      <td style="display: none;" data-ice="size">104 byte</td>
+      <td style="display: none;" data-ice="lines">5</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/controllers/config/index.js.html#errorLines=1,22,55,56,57">src/controllers/config/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-analyticsTrackingId">analyticsTrackingId</a></span>
+<span><a href="variable/index.html#static-variable-env">env</a></span>
+<span><a href="variable/index.html#static-variable-fbConfig">fbConfig</a></span>
+<span><a href="variable/index.html#static-variable-publicVapidKey">publicVapidKey</a></span>
+<span><a href="variable/index.html#static-variable-rrfConfig">rrfConfig</a></span>
+<span><a href="variable/index.html#static-variable-sentryDsn">sentryDsn</a></span></td>
+      <td class="coverage"><span data-ice="coverage">16 %</span><span data-ice="coverageCount" class="coverage-count">1/6</span></td>
+      <td style="display: none;" data-ice="size">2156 byte</td>
+      <td style="display: none;" data-ice="lines">66</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/controllers/constants/roles.js.html#errorLines=1,2">src/controllers/constants/roles.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-ADMIN">ADMIN</a></span>
+<span><a href="variable/index.html#static-variable-MEMBER">MEMBER</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/2</span></td>
+      <td style="display: none;" data-ice="size">60 byte</td>
+      <td style="display: none;" data-ice="lines">2</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/controllers/constants/routes.js.html#errorLines=1,15,16,17,18,19,2,20,3,4,5,6,7,8,9">src/controllers/constants/routes.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-ACCOUNT">ACCOUNT</a></span>
+<span><a href="variable/index.html#static-variable-ADMIN">ADMIN</a></span>
+<span><a href="variable/index.html#static-variable-ADMIN_DETAILS">ADMIN_DETAILS</a></span>
+<span><a href="variable/index.html#static-variable-DASH">DASH</a></span>
+<span><a href="variable/index.html#static-variable-HOME">HOME</a></span>
+<span><a href="variable/index.html#static-variable-LANDING">LANDING</a></span>
+<span><a href="variable/index.html#static-variable-MAILBOX">MAILBOX</a></span>
+<span><a href="variable/index.html#static-variable-MAILBOX_DRAFT">MAILBOX_DRAFT</a></span>
+<span><a href="variable/index.html#static-variable-MAILBOX_IMPORTANT">MAILBOX_IMPORTANT</a></span>
+<span><a href="variable/index.html#static-variable-MAILBOX_INBOX">MAILBOX_INBOX</a></span>
+<span><a href="variable/index.html#static-variable-MAILBOX_SENT">MAILBOX_SENT</a></span>
+<span><a href="variable/index.html#static-variable-MAILBOX_STARRED">MAILBOX_STARRED</a></span>
+<span><a href="variable/index.html#static-variable-MAILBOX_TRASH">MAILBOX_TRASH</a></span>
+<span><a href="variable/index.html#static-variable-PASSWORD_FORGET">PASSWORD_FORGET</a></span>
+<span><a href="variable/index.html#static-variable-SIGN_IN">SIGN_IN</a></span>
+<span><a href="variable/index.html#static-variable-SIGN_UP">SIGN_UP</a></span></td>
+      <td class="coverage"><span data-ice="coverage">6 %</span><span data-ice="coverageCount" class="coverage-count">1/16</span></td>
+      <td style="display: none;" data-ice="size">630 byte</td>
+      <td style="display: none;" data-ice="lines">20</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/controllers/middleware/firebase/index.js.html">src/controllers/middleware/firebase/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">159 byte</td>
+      <td style="display: none;" data-ice="lines">6</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/controllers/reducers/BackEnd/location.js.html#errorLines=19,26,27,4,9">src/controllers/reducers/BackEnd/location.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-LOCATION_CHANGE">LOCATION_CHANGE</a></span>
+<span><a href="function/index.html#static-function-locationChange">locationChange</a></span>
+<span><a href="function/index.html#static-function-locationReducer">locationReducer</a></span>
+<span><a href="function/index.html#static-function-updateLocation">updateLocation</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/5</span></td>
+      <td style="display: none;" data-ice="size">828 byte</td>
+      <td style="display: none;" data-ice="lines">29</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/controllers/reducers/BackEnd/reduxPersist.js.html#errorLines=13,20">src/controllers/reducers/BackEnd/reduxPersist.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-persistore">persistore</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/2</span></td>
+      <td style="display: none;" data-ice="size">996 byte</td>
+      <td style="display: none;" data-ice="lines">37</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/controllers/reducers/frontend/authReducer/authReducer.js.html#errorLines=9">src/controllers/reducers/frontend/authReducer/authReducer.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-authReducer">authReducer</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/1</span></td>
+      <td style="display: none;" data-ice="size">450 byte</td>
+      <td style="display: none;" data-ice="lines">16</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/controllers/reducers/frontend/email.js.html#errorLines=14,80,87">src/controllers/reducers/frontend/email.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-emailReducer">emailReducer</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/3</span></td>
+      <td style="display: none;" data-ice="size">3633 byte</td>
+      <td style="display: none;" data-ice="lines">131</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/controllers/reducers/index.js.html#errorLines=11,13,25">src/controllers/reducers/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-injectReducer">injectReducer</a></span>
+<span><a href="function/index.html#static-function-rootReducer">rootReducer</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/3</span></td>
+      <td style="display: none;" data-ice="size">1019 byte</td>
+      <td style="display: none;" data-ice="lines">30</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/controllers/reducers/mail/active.js.html#errorLines=2">src/controllers/reducers/mail/active.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-active">active</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/1</span></td>
+      <td style="display: none;" data-ice="size">189 byte</td>
+      <td style="display: none;" data-ice="lines">9</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/controllers/reducers/mail/emails.js.html#errorLines=2,4">src/controllers/reducers/mail/emails.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-emails">emails</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/2</span></td>
+      <td style="display: none;" data-ice="size">233 byte</td>
+      <td style="display: none;" data-ice="lines">11</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/controllers/reducers/mail/errors.js.html#errorLines=3">src/controllers/reducers/mail/errors.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-errors">errors</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/1</span></td>
+      <td style="display: none;" data-ice="size">174 byte</td>
+      <td style="display: none;" data-ice="lines">10</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/controllers/reducers/mail/recipient.js.html#errorLines=2">src/controllers/reducers/mail/recipient.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-recipient">recipient</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/1</span></td>
+      <td style="display: none;" data-ice="size">189 byte</td>
+      <td style="display: none;" data-ice="lines">9</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/controllers/reducers/mail/sender.js.html#errorLines=2">src/controllers/reducers/mail/sender.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-sender">sender</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/1</span></td>
+      <td style="display: none;" data-ice="size">180 byte</td>
+      <td style="display: none;" data-ice="lines">9</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/controllers/routes/index.js.html">src/controllers/routes/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">119 byte</td>
+      <td style="display: none;" data-ice="lines">4</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/controllers/routes/pubMenu1.js.html#errorLines=1,36">src/controllers/routes/pubMenu1.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-pubMenu1">pubMenu1</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/2</span></td>
+      <td style="display: none;" data-ice="size">1064 byte</td>
+      <td style="display: none;" data-ice="lines">40</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/controllers/routes/pubMenu2.js.html#errorLines=3,40">src/controllers/routes/pubMenu2.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-pubMenu2">pubMenu2</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/2</span></td>
+      <td style="display: none;" data-ice="size">1313 byte</td>
+      <td style="display: none;" data-ice="lines">44</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/controllers/store/bodega.js.html">src/controllers/store/bodega.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">363 byte</td>
+      <td style="display: none;" data-ice="lines">11</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/controllers/store/configureStore.js.html#errorLines=14">src/controllers/store/configureStore.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-configureStore">configureStore</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/1</span></td>
+      <td style="display: none;" data-ice="size">2013 byte</td>
+      <td style="display: none;" data-ice="lines">79</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/pages/Admin/Users/index.js.html">src/pages/Admin/Users/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">133 byte</td>
+      <td style="display: none;" data-ice="lines">4</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/serviceworker.js.html#errorLines=101,129,13,23,57">src/serviceworker.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-register">register</a></span>
+<span><a href="function/index.html#static-function-unregister">unregister</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/5</span></td>
+      <td style="display: none;" data-ice="size">4924 byte</td>
+      <td style="display: none;" data-ice="lines">135</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/tools/authCheck.js.html#errorLines=11,27,43,45,7,9">src/tools/authCheck.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-UserHasPermission">UserHasPermission</a></span>
+<span><a href="variable/index.html#static-variable-UserIsAuthenticated">UserIsAuthenticated</a></span>
+<span><a href="variable/index.html#static-variable-UserIsNotAuthenticated">UserIsNotAuthenticated</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/6</span></td>
+      <td style="display: none;" data-ice="size">2380 byte</td>
+      <td style="display: none;" data-ice="lines">60</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/tools/hoc/withApp.js.html#errorLines=4">src/tools/hoc/withApp.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-withApp">withApp</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/1</span></td>
+      <td style="display: none;" data-ice="size">152 byte</td>
+      <td style="display: none;" data-ice="lines">8</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/tools/hoc/withStore.js.html#errorLines=4">src/tools/hoc/withStore.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-withStore">withStore</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/1</span></td>
+      <td style="display: none;" data-ice="size">158 byte</td>
+      <td style="display: none;" data-ice="lines">8</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/utils/ScrollToTop.js.html#errorLines=4,5,9">src/utils/ScrollToTop.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/3</span></td>
+      <td style="display: none;" data-ice="size">322 byte</td>
+      <td style="display: none;" data-ice="lines">14</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/utils/Session/index.js.html">src/utils/Session/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">239 byte</td>
+      <td style="display: none;" data-ice="lines">5</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/utils/UserHasPermission.js.html">src/utils/UserHasPermission.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">971 byte</td>
+      <td style="display: none;" data-ice="lines">23</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/utils/createReducer.js.html#errorLines=1">src/utils/createReducer.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-createReducer">createReducer</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/1</span></td>
+      <td style="display: none;" data-ice="size">203 byte</td>
+      <td style="display: none;" data-ice="lines">6</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/utils/firebaseMessaging.js.html">src/utils/firebaseMessaging.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-initializeMessaging">initializeMessaging</a></span>
+<span><a href="function/index.html#static-function-requestPermission">requestPermission</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">5/5</span></td>
+      <td style="display: none;" data-ice="size">2946 byte</td>
+      <td style="display: none;" data-ice="lines">104</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/utils/index.js.html">src/utils/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-fpLog">fpLog</a></span>
+<span><a href="function/index.html#static-function-initScripts">initScripts</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">2/2</span></td>
+      <td style="display: none;" data-ice="size">875 byte</td>
+      <td style="display: none;" data-ice="lines">32</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/utils/loginValidate.js.html">src/utils/loginValidate.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-required">required</a></span>
+<span><a href="function/index.html#static-function-validateEmail">validateEmail</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">2/2</span></td>
+      <td style="display: none;" data-ice="size">802 byte</td>
+      <td style="display: none;" data-ice="lines">34</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/utils/reducerUtil.js.html#errorLines=1">src/utils/reducerUtil.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-createReducer">createReducer</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/1</span></td>
+      <td style="display: none;" data-ice="size">204 byte</td>
+      <td style="display: none;" data-ice="lines">7</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/utils/unused store/analytics.js.html">src/utils/unused store/analytics.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-init">init</a></span>
+<span><a href="function/index.html#static-function-setAnalyticsUser">setAnalyticsUser</a></span>
+<span><a href="function/index.html#static-function-trackRouteUpdate">trackRouteUpdate</a></span>
+<span><a href="function/index.html#static-function-triggerAnalyticsEvent">triggerAnalyticsEvent</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">6/6</span></td>
+      <td style="display: none;" data-ice="size">1778 byte</td>
+      <td style="display: none;" data-ice="lines">73</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/utils/validate.js.html">src/utils/validate.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">36860 byte</td>
+      <td style="display: none;" data-ice="lines">1342</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/z.Adopted  Templates/templates/Firebase_API-Cheatsheet.js.html#errorLines=253,295">src/z.Adopted  Templates/templates/Firebase_API-Cheatsheet.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-actionTypes">actionTypes</a></span>
+<span><a href="variable/index.html#static-variable-actionsPrefix">actionsPrefix</a></span>
+<span><a href="variable/index.html#static-variable-defaultConfig">defaultConfig</a></span>
+<span><a href="variable/index.html#static-variable-supportedAuthProviders">supportedAuthProviders</a></span>
+<span><a href="variable/index.html#static-variable-topLevelPaths">topLevelPaths</a></span></td>
+      <td class="coverage"><span data-ice="coverage">60 %</span><span data-ice="coverageCount" class="coverage-count">3/5</span></td>
+      <td style="display: none;" data-ice="size">12725 byte</td>
+      <td style="display: none;" data-ice="lines">313</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/z.Adopted  Templates/templates/formsy-semantic-base.js.html">src/z.Adopted  Templates/templates/formsy-semantic-base.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">114 byte</td>
+      <td style="display: none;" data-ice="lines">3</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/z.Possible Use Case Templates/todo tasks/Server/server.js.html#errorLines=1,11,13,15,3,5,7,9">src/z.Possible Use Case Templates/todo tasks/Server/server.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/8</span></td>
+      <td style="display: none;" data-ice="size">776 byte</td>
+      <td style="display: none;" data-ice="lines">36</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/z.Possible Use Case Templates/todo tasks/errorHandler.js.html">src/z.Possible Use Case Templates/todo tasks/errorHandler.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-init">init</a></span>
+<span><a href="function/index.html#static-function-setErrorUser">setErrorUser</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">4/4</span></td>
+      <td style="display: none;" data-ice="size">1867 byte</td>
+      <td style="display: none;" data-ice="lines">75</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/z.Possible Use Case Templates/todo tasks/mail/actions/__tests__/actions_test.js.html">src/z.Possible Use Case Templates/todo tasks/mail/actions/__tests__/actions_test.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">856 byte</td>
+      <td style="display: none;" data-ice="lines">25</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/z.Possible Use Case Templates/todo tasks/mail/actions/index.js.html#errorLines=10,15,5,7">src/z.Possible Use Case Templates/todo tasks/mail/actions/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-selectEmail">selectEmail</a></span>
+<span><a href="function/index.html#static-function-selectGroup">selectGroup</a></span>
+<span><a href="function/index.html#static-function-sendEmail">sendEmail</a></span>
+<span><a href="function/index.html#static-function-setForm">setForm</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/4</span></td>
+      <td style="display: none;" data-ice="size">480 byte</td>
+      <td style="display: none;" data-ice="lines">19</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/z.Possible Use Case Templates/todo tasks/mail/actions/types.js.html#errorLines=1,2,3,4">src/z.Possible Use Case Templates/todo tasks/mail/actions/types.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-SELECT_EMAIL">SELECT_EMAIL</a></span>
+<span><a href="variable/index.html#static-variable-SELECT_GROUP">SELECT_GROUP</a></span>
+<span><a href="variable/index.html#static-variable-SEND_EMAIL">SEND_EMAIL</a></span>
+<span><a href="variable/index.html#static-variable-SET_FORM">SET_FORM</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/4</span></td>
+      <td style="display: none;" data-ice="size">160 byte</td>
+      <td style="display: none;" data-ice="lines">4</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/z.Possible Use Case Templates/todo tasks/mail/reducers/__tests__/email_test.js.html">src/z.Possible Use Case Templates/todo tasks/mail/reducers/__tests__/email_test.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">2523 byte</td>
+      <td style="display: none;" data-ice="lines">88</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/z.Possible Use Case Templates/todo tasks/mail/reducers/email.js.html#errorLines=14,80,87">src/z.Possible Use Case Templates/todo tasks/mail/reducers/email.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-emailReducer">emailReducer</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/3</span></td>
+      <td style="display: none;" data-ice="size">3561 byte</td>
+      <td style="display: none;" data-ice="lines">131</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/z.Possible Use Case Templates/todo tasks/mail/reducers/index.js.html#errorLines=4">src/z.Possible Use Case Templates/todo tasks/mail/reducers/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-reducer">reducer</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/1</span></td>
+      <td style="display: none;" data-ice="size">138 byte</td>
+      <td style="display: none;" data-ice="lines">8</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/z.Possible Use Case Templates/todo tasks/mainAuth/Users/index.js.html">src/z.Possible Use Case Templates/todo tasks/mainAuth/Users/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">99 byte</td>
+      <td style="display: none;" data-ice="lines">4</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/z.Possible Use Case Templates/todo tasks/messages/fbmessages.js.html">src/z.Possible Use Case Templates/todo tasks/messages/fbmessages.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">173 byte</td>
+      <td style="display: none;" data-ice="lines">4</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/z.Possible Use Case Templates/todo tasks/socket-io firebaseadmin/socket-io-fbAdminMiddleware.js.html#errorLines=10,12,16,8">src/z.Possible Use Case Templates/todo tasks/socket-io firebaseadmin/socket-io-fbAdminMiddleware.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/4</span></td>
+      <td style="display: none;" data-ice="size">849 byte</td>
+      <td style="display: none;" data-ice="lines">34</td>
+      <td style="display: none;" data-ice="updated">2019-05-06 03:05:01 (UTC)</td>
+    </tr>
+</tbody>
+</table>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

@@ -1,0 +1,965 @@
+{
+  "type": "File",
+  "start": 0,
+  "end": 239,
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 6,
+      "column": 0
+    }
+  },
+  "program": {
+    "type": "Program",
+    "start": 0,
+    "end": 239,
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 6,
+        "column": 0
+      }
+    },
+    "sourceType": "module",
+    "body": [
+      {
+        "type": "ImportDeclaration",
+        "start": 0,
+        "end": 53,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 53
+          }
+        },
+        "specifiers": [
+          {
+            "type": "ImportDefaultSpecifier",
+            "start": 7,
+            "end": 25,
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 7
+              },
+              "end": {
+                "line": 1,
+                "column": 25
+              }
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 7,
+              "end": 25,
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 7
+                },
+                "end": {
+                  "line": 1,
+                  "column": 25
+                },
+                "identifierName": "withAuthentication"
+              },
+              "name": "withAuthentication"
+            }
+          }
+        ],
+        "source": {
+          "type": "StringLiteral",
+          "start": 31,
+          "end": 53,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 31
+            },
+            "end": {
+              "line": 1,
+              "column": 53
+            }
+          },
+          "extra": {
+            "rawValue": "./withAuthentication",
+            "raw": "'./withAuthentication'"
+          },
+          "value": "./withAuthentication"
+        }
+      },
+      {
+        "type": "ImportDeclaration",
+        "start": 54,
+        "end": 105,
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 0
+          },
+          "end": {
+            "line": 2,
+            "column": 51
+          }
+        },
+        "specifiers": [
+          {
+            "type": "ImportDefaultSpecifier",
+            "start": 61,
+            "end": 78,
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 7
+              },
+              "end": {
+                "line": 2,
+                "column": 24
+              }
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 61,
+              "end": 78,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 7
+                },
+                "end": {
+                  "line": 2,
+                  "column": 24
+                },
+                "identifierName": "withAuthorization"
+              },
+              "name": "withAuthorization"
+            }
+          }
+        ],
+        "source": {
+          "type": "StringLiteral",
+          "start": 84,
+          "end": 105,
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 30
+            },
+            "end": {
+              "line": 2,
+              "column": 51
+            }
+          },
+          "extra": {
+            "rawValue": "./withAuthorization",
+            "raw": "'./withAuthorization'"
+          },
+          "value": "./withAuthorization"
+        }
+      },
+      {
+        "type": "ImportDeclaration",
+        "start": 106,
+        "end": 165,
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 0
+          },
+          "end": {
+            "line": 3,
+            "column": 59
+          }
+        },
+        "specifiers": [
+          {
+            "type": "ImportDefaultSpecifier",
+            "start": 113,
+            "end": 134,
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 7
+              },
+              "end": {
+                "line": 3,
+                "column": 28
+              }
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 113,
+              "end": 134,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 7
+                },
+                "end": {
+                  "line": 3,
+                  "column": 28
+                },
+                "identifierName": "withEmailVerification"
+              },
+              "name": "withEmailVerification"
+            }
+          }
+        ],
+        "source": {
+          "type": "StringLiteral",
+          "start": 140,
+          "end": 165,
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 34
+            },
+            "end": {
+              "line": 3,
+              "column": 59
+            }
+          },
+          "extra": {
+            "rawValue": "./withEmailVerification",
+            "raw": "'./withEmailVerification'"
+          },
+          "value": "./withEmailVerification"
+        }
+      },
+      {
+        "type": "ExportNamedDeclaration",
+        "start": 167,
+        "end": 238,
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 0
+          },
+          "end": {
+            "line": 5,
+            "column": 71
+          }
+        },
+        "declaration": null,
+        "specifiers": [
+          {
+            "type": "ExportSpecifier",
+            "start": 176,
+            "end": 194,
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 9
+              },
+              "end": {
+                "line": 5,
+                "column": 27
+              }
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 176,
+              "end": 194,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 9
+                },
+                "end": {
+                  "line": 5,
+                  "column": 27
+                },
+                "identifierName": "withAuthentication"
+              },
+              "name": "withAuthentication"
+            },
+            "exported": {
+              "type": "Identifier",
+              "start": 176,
+              "end": 194,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 9
+                },
+                "end": {
+                  "line": 5,
+                  "column": 27
+                },
+                "identifierName": "withAuthentication"
+              },
+              "name": "withAuthentication"
+            }
+          },
+          {
+            "type": "ExportSpecifier",
+            "start": 196,
+            "end": 213,
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 29
+              },
+              "end": {
+                "line": 5,
+                "column": 46
+              }
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 196,
+              "end": 213,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 29
+                },
+                "end": {
+                  "line": 5,
+                  "column": 46
+                },
+                "identifierName": "withAuthorization"
+              },
+              "name": "withAuthorization"
+            },
+            "exported": {
+              "type": "Identifier",
+              "start": 196,
+              "end": 213,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 29
+                },
+                "end": {
+                  "line": 5,
+                  "column": 46
+                },
+                "identifierName": "withAuthorization"
+              },
+              "name": "withAuthorization"
+            }
+          },
+          {
+            "type": "ExportSpecifier",
+            "start": 215,
+            "end": 236,
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 48
+              },
+              "end": {
+                "line": 5,
+                "column": 69
+              }
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 215,
+              "end": 236,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 48
+                },
+                "end": {
+                  "line": 5,
+                  "column": 69
+                },
+                "identifierName": "withEmailVerification"
+              },
+              "name": "withEmailVerification"
+            },
+            "exported": {
+              "type": "Identifier",
+              "start": 215,
+              "end": 236,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 48
+                },
+                "end": {
+                  "line": 5,
+                  "column": 69
+                },
+                "identifierName": "withEmailVerification"
+              },
+              "name": "withEmailVerification"
+            }
+          }
+        ],
+        "source": null
+      }
+    ],
+    "directives": []
+  },
+  "comments": [],
+  "tokens": [
+    {
+      "type": {
+        "label": "import",
+        "keyword": "import",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "import",
+      "start": 0,
+      "end": 6,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "withAuthentication",
+      "start": 7,
+      "end": 25,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 7
+        },
+        "end": {
+          "line": 1,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "from",
+      "start": 26,
+      "end": 30,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 26
+        },
+        "end": {
+          "line": 1,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "./withAuthentication",
+      "start": 31,
+      "end": 53,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 31
+        },
+        "end": {
+          "line": 1,
+          "column": 53
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "import",
+        "keyword": "import",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "import",
+      "start": 54,
+      "end": 60,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "withAuthorization",
+      "start": 61,
+      "end": 78,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 7
+        },
+        "end": {
+          "line": 2,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "from",
+      "start": 79,
+      "end": 83,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 25
+        },
+        "end": {
+          "line": 2,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "./withAuthorization",
+      "start": 84,
+      "end": 105,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 30
+        },
+        "end": {
+          "line": 2,
+          "column": 51
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "import",
+        "keyword": "import",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "import",
+      "start": 106,
+      "end": 112,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "withEmailVerification",
+      "start": 113,
+      "end": 134,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 7
+        },
+        "end": {
+          "line": 3,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "from",
+      "start": 135,
+      "end": 139,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 29
+        },
+        "end": {
+          "line": 3,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "./withEmailVerification",
+      "start": 140,
+      "end": 165,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 34
+        },
+        "end": {
+          "line": 3,
+          "column": 59
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "export",
+      "start": 167,
+      "end": 173,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 174,
+      "end": 175,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 7
+        },
+        "end": {
+          "line": 5,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "withAuthentication",
+      "start": 176,
+      "end": 194,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 9
+        },
+        "end": {
+          "line": 5,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 194,
+      "end": 195,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 27
+        },
+        "end": {
+          "line": 5,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "withAuthorization",
+      "start": 196,
+      "end": 213,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 29
+        },
+        "end": {
+          "line": 5,
+          "column": 46
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 213,
+      "end": 214,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 46
+        },
+        "end": {
+          "line": 5,
+          "column": 47
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "withEmailVerification",
+      "start": 215,
+      "end": 236,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 48
+        },
+        "end": {
+          "line": 5,
+          "column": 69
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 237,
+      "end": 238,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 70
+        },
+        "end": {
+          "line": 5,
+          "column": 71
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "eof",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 239,
+      "end": 239,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 0
+        }
+      }
+    }
+  ]
+}

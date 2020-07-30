@@ -1,0 +1,43 @@
+# OS
+*.log
+**/*.log
+.DS_Store
+**/.DS_Store
+
+# Dependencies
+**/node_modules
+
+# React App
+build
+src/config.js
+.env
+
+# Functions
+functions/etc
+functions/dist
+functions/.runtimeconfig.json
+functions/coverage
+
+# Tests
+cypress/videos
+cypress/screenshots
+cypress.env.json
+cypress/config.json
+serviceAccount.json
+src/serviceWorker.js
+.yo-rc.json
+Archive
+_YOU_GOT_AN_OPP-YEAHYOUKNOWME
+.gitignore
+backup
+View
+upload
+.firebaserc
+src/utils/errorHandleralt.js
+src/App/archive
+bin
+src/semantic-ui-less
+z backup
+yarn.lock
+*.zip
+**/*node_modules*/**

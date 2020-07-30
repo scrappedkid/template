@@ -1,0 +1,81 @@
+{
+  "base": "src/semantic/",
+  "version": "2.4.2",
+  "paths": {
+    "source": {
+
+      "config": "src/styles/theme.config",
+
+      "definitions": "src/styles/definitions/",
+
+      "site": "src/styles/site/",
+
+      "themes": "src/styles/themes/"
+    },
+    "output": {
+
+      "packaged": "buiild/",
+
+      "uncompressed": "buiild/components/",
+
+      "compressed": "buiild/components/",
+
+      "themes": "buiild/themes/"
+    },
+
+    "clean": "buiild/"
+  },
+  "permission": false,
+  "rtl": false,
+  "components": [
+    "reset",
+    "site",
+    "button",
+    "container",
+    "divider",
+    "flag",
+    "header",
+    "icon",
+    "image",
+    "input",
+    "label",
+    "list",
+    "loader",
+    "rail",
+    "reveal",
+    "segment",
+    "step",
+    "breadcrumb",
+    "form",
+    "grid",
+    "menu",
+    "message",
+    "table",
+    "ad",
+    "card",
+    "comment",
+    "feed",
+    "item",
+    "statistic",
+    "accordion",
+    "checkbox",
+    "dimmer",
+    "dropdown",
+    "embed",
+    "modal",
+    "nag",
+    "popup",
+    "progress",
+    "rating",
+    "search",
+    "shape",
+    "sidebar",
+    "sticky",
+    "tab",
+    "transition",
+    "api",
+    "state",
+    "visibility"
+  ],
+  "admin": false
+}

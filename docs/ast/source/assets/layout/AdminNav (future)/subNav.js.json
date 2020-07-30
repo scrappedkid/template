@@ -1,0 +1,502 @@
+{
+  "type": "File",
+  "start": 0,
+  "end": 104,
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 6,
+      "column": 0
+    }
+  },
+  "program": {
+    "type": "Program",
+    "start": 0,
+    "end": 104,
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 6,
+        "column": 0
+      }
+    },
+    "sourceType": "module",
+    "body": [
+      {
+        "type": "Identifier",
+        "start": 63,
+        "end": 80,
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 0
+          },
+          "end": {
+            "line": 3,
+            "column": 17
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 69,
+            "end": 80,
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 6
+              },
+              "end": {
+                "line": 3,
+                "column": 17
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 69,
+              "end": 75,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 6
+                },
+                "end": {
+                  "line": 3,
+                  "column": 12
+                },
+                "identifierName": "subNav"
+              },
+              "name": "subNav",
+              "leadingComments": null
+            },
+            "init": {
+              "type": "StringLiteral",
+              "start": 78,
+              "end": 80,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 15
+                },
+                "end": {
+                  "line": 3,
+                  "column": 17
+                }
+              },
+              "extra": {
+                "rawValue": "",
+                "raw": "''"
+              },
+              "value": ""
+            },
+            "leadingComments": null
+          }
+        ],
+        "kind": "const",
+        "leadingComments": [],
+        "name": "_",
+        "trailingComments": []
+      },
+      {
+        "type": "Identifier",
+        "start": 82,
+        "end": 103,
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 0
+          },
+          "end": {
+            "line": 5,
+            "column": 21
+          }
+        },
+        "declaration": {
+          "type": "Identifier",
+          "start": 97,
+          "end": 103,
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 15
+            },
+            "end": {
+              "line": 5,
+              "column": 21
+            },
+            "identifierName": "subNav"
+          },
+          "name": "subNav"
+        },
+        "name": "_",
+        "leadingComments": [],
+        "trailingComments": []
+      },
+      {
+        "type": "ExportDefaultDeclaration",
+        "start": 82,
+        "end": 103,
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 0
+          },
+          "end": {
+            "line": 5,
+            "column": 21
+          }
+        },
+        "declaration": {
+          "type": "VariableDeclaration",
+          "start": 63,
+          "end": 80,
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 0
+            },
+            "end": {
+              "line": 3,
+              "column": 17
+            }
+          },
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 69,
+              "end": 80,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 6
+                },
+                "end": {
+                  "line": 3,
+                  "column": 17
+                }
+              },
+              "id": {
+                "type": "Identifier",
+                "start": 69,
+                "end": 75,
+                "loc": {
+                  "start": {
+                    "line": 3,
+                    "column": 6
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 12
+                  },
+                  "identifierName": "subNav"
+                },
+                "name": "subNav",
+                "leadingComments": null
+              },
+              "init": {
+                "type": "StringLiteral",
+                "start": 78,
+                "end": 80,
+                "loc": {
+                  "start": {
+                    "line": 3,
+                    "column": 15
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 17
+                  }
+                },
+                "extra": {
+                  "rawValue": "",
+                  "raw": "''"
+                },
+                "value": ""
+              },
+              "leadingComments": null
+            }
+          ],
+          "kind": "const",
+          "leadingComments": [
+            {
+              "type": "CommentLine",
+              "value": " !TODO. add secondary menu for admin, current mod subspace.",
+              "start": 0,
+              "end": 61,
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 61
+                }
+              }
+            }
+          ],
+          "trailingComments": []
+        }
+      }
+    ],
+    "directives": []
+  },
+  "comments": [
+    {
+      "type": "CommentLine",
+      "value": " !TODO. add secondary menu for admin, current mod subspace.",
+      "start": 0,
+      "end": 61,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 61
+        }
+      }
+    }
+  ],
+  "tokens": [
+    {
+      "type": "CommentLine",
+      "value": " !TODO. add secondary menu for admin, current mod subspace.",
+      "start": 0,
+      "end": 61,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 61
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "const",
+        "keyword": "const",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "const",
+      "start": 63,
+      "end": 68,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "subNav",
+      "start": 69,
+      "end": 75,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 6
+        },
+        "end": {
+          "line": 3,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 76,
+      "end": 77,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 13
+        },
+        "end": {
+          "line": 3,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "",
+      "start": 78,
+      "end": 80,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 15
+        },
+        "end": {
+          "line": 3,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "export",
+      "start": 82,
+      "end": 88,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "default",
+        "keyword": "default",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "default",
+      "start": 89,
+      "end": 96,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 7
+        },
+        "end": {
+          "line": 5,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "subNav",
+      "start": 97,
+      "end": 103,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 15
+        },
+        "end": {
+          "line": 5,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "eof",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 104,
+      "end": 104,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 0
+        }
+      }
+    }
+  ]
+}

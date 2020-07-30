@@ -1,0 +1,1653 @@
+{
+  "type": "File",
+  "start": 0,
+  "end": 802,
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 35,
+      "column": 0
+    }
+  },
+  "program": {
+    "type": "Program",
+    "start": 0,
+    "end": 802,
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 35,
+        "column": 0
+      }
+    },
+    "sourceType": "module",
+    "body": [
+      {
+        "type": "ExportNamedDeclaration",
+        "start": 293,
+        "end": 369,
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 0
+          },
+          "end": {
+            "line": 16,
+            "column": 1
+          }
+        },
+        "specifiers": [],
+        "source": null,
+        "declaration": {
+          "type": "FunctionDeclaration",
+          "start": 300,
+          "end": 369,
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 7
+            },
+            "end": {
+              "line": 16,
+              "column": 1
+            }
+          },
+          "id": {
+            "type": "Identifier",
+            "start": 309,
+            "end": 317,
+            "loc": {
+              "start": {
+                "line": 14,
+                "column": 16
+              },
+              "end": {
+                "line": 14,
+                "column": 24
+              },
+              "identifierName": "required"
+            },
+            "name": "required",
+            "leadingComments": null
+          },
+          "generator": false,
+          "expression": false,
+          "async": false,
+          "params": [
+            {
+              "type": "Identifier",
+              "start": 319,
+              "end": 324,
+              "loc": {
+                "start": {
+                  "line": 14,
+                  "column": 26
+                },
+                "end": {
+                  "line": 14,
+                  "column": 31
+                },
+                "identifierName": "value"
+              },
+              "name": "value"
+            }
+          ],
+          "body": {
+            "type": "BlockStatement",
+            "start": 326,
+            "end": 369,
+            "loc": {
+              "start": {
+                "line": 14,
+                "column": 33
+              },
+              "end": {
+                "line": 16,
+                "column": 1
+              }
+            },
+            "body": [
+              {
+                "type": "ReturnStatement",
+                "start": 330,
+                "end": 367,
+                "loc": {
+                  "start": {
+                    "line": 15,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 15,
+                    "column": 39
+                  }
+                },
+                "argument": {
+                  "type": "ConditionalExpression",
+                  "start": 337,
+                  "end": 367,
+                  "loc": {
+                    "start": {
+                      "line": 15,
+                      "column": 9
+                    },
+                    "end": {
+                      "line": 15,
+                      "column": 39
+                    }
+                  },
+                  "test": {
+                    "type": "Identifier",
+                    "start": 337,
+                    "end": 342,
+                    "loc": {
+                      "start": {
+                        "line": 15,
+                        "column": 9
+                      },
+                      "end": {
+                        "line": 15,
+                        "column": 14
+                      },
+                      "identifierName": "value"
+                    },
+                    "name": "value"
+                  },
+                  "consequent": {
+                    "type": "Identifier",
+                    "start": 345,
+                    "end": 354,
+                    "loc": {
+                      "start": {
+                        "line": 15,
+                        "column": 17
+                      },
+                      "end": {
+                        "line": 15,
+                        "column": 26
+                      },
+                      "identifierName": "undefined"
+                    },
+                    "name": "undefined"
+                  },
+                  "alternate": {
+                    "type": "StringLiteral",
+                    "start": 357,
+                    "end": 367,
+                    "loc": {
+                      "start": {
+                        "line": 15,
+                        "column": 29
+                      },
+                      "end": {
+                        "line": 15,
+                        "column": 39
+                      }
+                    },
+                    "extra": {
+                      "rawValue": "Required",
+                      "raw": "'Required'"
+                    },
+                    "value": "Required"
+                  }
+                }
+              }
+            ],
+            "directives": [],
+            "trailingComments": null
+          },
+          "leadingComments": [
+            {
+              "type": "CommentBlock",
+              "value": "*\n * Returns error message if value does not exist, otherwise returns\n * undefined\n * @param {String} value - Email to validate\n * @example Required Field\n * <Field\n *   name=\"password\"\n *   component={TextField}\n *   label=\"Password\"\n *   type=\"password\"\n *   validate={required}\n * />\n ",
+              "start": 0,
+              "end": 292,
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 0
+                },
+                "end": {
+                  "line": 13,
+                  "column": 3
+                }
+              }
+            }
+          ],
+          "trailingComments": [
+            {
+              "type": "CommentBlock",
+              "value": "*\n * Returns error message if value is not a valid email, otherwise returns\n * undefined\n * @param {String} value - Email to validate\n * @example Basic\n * <Field\n *   name=\"email\"\n *   component={TextField}\n *   label=\"Email\"\n *   validate={validateEmail}\n * />\n ",
+              "start": 371,
+              "end": 638,
+              "loc": {
+                "start": {
+                  "line": 18,
+                  "column": 0
+                },
+                "end": {
+                  "line": 29,
+                  "column": 3
+                }
+              }
+            }
+          ]
+        },
+        "leadingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\n * Returns error message if value does not exist, otherwise returns\n * undefined\n * @param {String} value - Email to validate\n * @example Required Field\n * <Field\n *   name=\"password\"\n *   component={TextField}\n *   label=\"Password\"\n *   type=\"password\"\n *   validate={required}\n * />\n ",
+            "start": 0,
+            "end": 292,
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 0
+              },
+              "end": {
+                "line": 13,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\n * Returns error message if value is not a valid email, otherwise returns\n * undefined\n * @param {String} value - Email to validate\n * @example Basic\n * <Field\n *   name=\"email\"\n *   component={TextField}\n *   label=\"Email\"\n *   validate={validateEmail}\n * />\n ",
+            "start": 371,
+            "end": 638,
+            "loc": {
+              "start": {
+                "line": 18,
+                "column": 0
+              },
+              "end": {
+                "line": 29,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ExportNamedDeclaration",
+        "start": 639,
+        "end": 801,
+        "loc": {
+          "start": {
+            "line": 30,
+            "column": 0
+          },
+          "end": {
+            "line": 34,
+            "column": 1
+          }
+        },
+        "specifiers": [],
+        "source": null,
+        "declaration": {
+          "type": "FunctionDeclaration",
+          "start": 646,
+          "end": 801,
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 7
+            },
+            "end": {
+              "line": 34,
+              "column": 1
+            }
+          },
+          "id": {
+            "type": "Identifier",
+            "start": 655,
+            "end": 668,
+            "loc": {
+              "start": {
+                "line": 30,
+                "column": 16
+              },
+              "end": {
+                "line": 30,
+                "column": 29
+              },
+              "identifierName": "validateEmail"
+            },
+            "name": "validateEmail",
+            "leadingComments": null
+          },
+          "generator": false,
+          "expression": false,
+          "async": false,
+          "params": [
+            {
+              "type": "Identifier",
+              "start": 670,
+              "end": 675,
+              "loc": {
+                "start": {
+                  "line": 30,
+                  "column": 31
+                },
+                "end": {
+                  "line": 30,
+                  "column": 36
+                },
+                "identifierName": "value"
+              },
+              "name": "value"
+            }
+          ],
+          "body": {
+            "type": "BlockStatement",
+            "start": 677,
+            "end": 801,
+            "loc": {
+              "start": {
+                "line": 30,
+                "column": 38
+              },
+              "end": {
+                "line": 34,
+                "column": 1
+              }
+            },
+            "body": [
+              {
+                "type": "ReturnStatement",
+                "start": 681,
+                "end": 799,
+                "loc": {
+                  "start": {
+                    "line": 31,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 33,
+                    "column": 15
+                  }
+                },
+                "argument": {
+                  "type": "ConditionalExpression",
+                  "start": 688,
+                  "end": 799,
+                  "loc": {
+                    "start": {
+                      "line": 31,
+                      "column": 9
+                    },
+                    "end": {
+                      "line": 33,
+                      "column": 15
+                    }
+                  },
+                  "test": {
+                    "type": "LogicalExpression",
+                    "start": 688,
+                    "end": 753,
+                    "loc": {
+                      "start": {
+                        "line": 31,
+                        "column": 9
+                      },
+                      "end": {
+                        "line": 31,
+                        "column": 74
+                      }
+                    },
+                    "left": {
+                      "type": "Identifier",
+                      "start": 688,
+                      "end": 693,
+                      "loc": {
+                        "start": {
+                          "line": 31,
+                          "column": 9
+                        },
+                        "end": {
+                          "line": 31,
+                          "column": 14
+                        },
+                        "identifierName": "value"
+                      },
+                      "name": "value"
+                    },
+                    "operator": "&&",
+                    "right": {
+                      "type": "UnaryExpression",
+                      "start": 697,
+                      "end": 753,
+                      "loc": {
+                        "start": {
+                          "line": 31,
+                          "column": 18
+                        },
+                        "end": {
+                          "line": 31,
+                          "column": 74
+                        }
+                      },
+                      "operator": "!",
+                      "prefix": true,
+                      "argument": {
+                        "type": "CallExpression",
+                        "start": 698,
+                        "end": 753,
+                        "loc": {
+                          "start": {
+                            "line": 31,
+                            "column": 19
+                          },
+                          "end": {
+                            "line": 31,
+                            "column": 74
+                          }
+                        },
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 698,
+                          "end": 746,
+                          "loc": {
+                            "start": {
+                              "line": 31,
+                              "column": 19
+                            },
+                            "end": {
+                              "line": 31,
+                              "column": 67
+                            }
+                          },
+                          "object": {
+                            "type": "RegExpLiteral",
+                            "start": 698,
+                            "end": 741,
+                            "loc": {
+                              "start": {
+                                "line": 31,
+                                "column": 19
+                              },
+                              "end": {
+                                "line": 31,
+                                "column": 62
+                              }
+                            },
+                            "extra": {
+                              "raw": "/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,4}$/i"
+                            },
+                            "pattern": "^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,4}$",
+                            "flags": "i"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 742,
+                            "end": 746,
+                            "loc": {
+                              "start": {
+                                "line": 31,
+                                "column": 63
+                              },
+                              "end": {
+                                "line": 31,
+                                "column": 67
+                              },
+                              "identifierName": "test"
+                            },
+                            "name": "test"
+                          },
+                          "computed": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 747,
+                            "end": 752,
+                            "loc": {
+                              "start": {
+                                "line": 31,
+                                "column": 68
+                              },
+                              "end": {
+                                "line": 31,
+                                "column": 73
+                              },
+                              "identifierName": "value"
+                            },
+                            "name": "value"
+                          }
+                        ]
+                      },
+                      "extra": {
+                        "parenthesizedArgument": false
+                      }
+                    }
+                  },
+                  "consequent": {
+                    "type": "StringLiteral",
+                    "start": 760,
+                    "end": 783,
+                    "loc": {
+                      "start": {
+                        "line": 32,
+                        "column": 6
+                      },
+                      "end": {
+                        "line": 32,
+                        "column": 29
+                      }
+                    },
+                    "extra": {
+                      "rawValue": "Invalid email address",
+                      "raw": "'Invalid email address'"
+                    },
+                    "value": "Invalid email address"
+                  },
+                  "alternate": {
+                    "type": "Identifier",
+                    "start": 790,
+                    "end": 799,
+                    "loc": {
+                      "start": {
+                        "line": 33,
+                        "column": 6
+                      },
+                      "end": {
+                        "line": 33,
+                        "column": 15
+                      },
+                      "identifierName": "undefined"
+                    },
+                    "name": "undefined"
+                  }
+                }
+              }
+            ],
+            "directives": []
+          },
+          "leadingComments": [
+            {
+              "type": "CommentBlock",
+              "value": "*\n * Returns error message if value is not a valid email, otherwise returns\n * undefined\n * @param {String} value - Email to validate\n * @example Basic\n * <Field\n *   name=\"email\"\n *   component={TextField}\n *   label=\"Email\"\n *   validate={validateEmail}\n * />\n ",
+              "start": 371,
+              "end": 638,
+              "loc": {
+                "start": {
+                  "line": 18,
+                  "column": 0
+                },
+                "end": {
+                  "line": 29,
+                  "column": 3
+                }
+              }
+            }
+          ],
+          "trailingComments": []
+        },
+        "leadingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\n * Returns error message if value is not a valid email, otherwise returns\n * undefined\n * @param {String} value - Email to validate\n * @example Basic\n * <Field\n *   name=\"email\"\n *   component={TextField}\n *   label=\"Email\"\n *   validate={validateEmail}\n * />\n ",
+            "start": 371,
+            "end": 638,
+            "loc": {
+              "start": {
+                "line": 18,
+                "column": 0
+              },
+              "end": {
+                "line": 29,
+                "column": 3
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "directives": []
+  },
+  "comments": [
+    {
+      "type": "CommentBlock",
+      "value": "*\n * Returns error message if value does not exist, otherwise returns\n * undefined\n * @param {String} value - Email to validate\n * @example Required Field\n * <Field\n *   name=\"password\"\n *   component={TextField}\n *   label=\"Password\"\n *   type=\"password\"\n *   validate={required}\n * />\n ",
+      "start": 0,
+      "end": 292,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 13,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * Returns error message if value is not a valid email, otherwise returns\n * undefined\n * @param {String} value - Email to validate\n * @example Basic\n * <Field\n *   name=\"email\"\n *   component={TextField}\n *   label=\"Email\"\n *   validate={validateEmail}\n * />\n ",
+      "start": 371,
+      "end": 638,
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 0
+        },
+        "end": {
+          "line": 29,
+          "column": 3
+        }
+      }
+    }
+  ],
+  "tokens": [
+    {
+      "type": "CommentBlock",
+      "value": "*\n * Returns error message if value does not exist, otherwise returns\n * undefined\n * @param {String} value - Email to validate\n * @example Required Field\n * <Field\n *   name=\"password\"\n *   component={TextField}\n *   label=\"Password\"\n *   type=\"password\"\n *   validate={required}\n * />\n ",
+      "start": 0,
+      "end": 292,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 13,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "export",
+      "start": 293,
+      "end": 299,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 0
+        },
+        "end": {
+          "line": 14,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "function",
+        "keyword": "function",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "function",
+      "start": 300,
+      "end": 308,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 7
+        },
+        "end": {
+          "line": 14,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "required",
+      "start": 309,
+      "end": 317,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 16
+        },
+        "end": {
+          "line": 14,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 318,
+      "end": 319,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 25
+        },
+        "end": {
+          "line": 14,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "value",
+      "start": 319,
+      "end": 324,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 26
+        },
+        "end": {
+          "line": 14,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 324,
+      "end": 325,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 31
+        },
+        "end": {
+          "line": 14,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 326,
+      "end": 327,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 33
+        },
+        "end": {
+          "line": 14,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "return",
+        "keyword": "return",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "return",
+      "start": 330,
+      "end": 336,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 2
+        },
+        "end": {
+          "line": 15,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "value",
+      "start": 337,
+      "end": 342,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 9
+        },
+        "end": {
+          "line": 15,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "?",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 343,
+      "end": 344,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 15
+        },
+        "end": {
+          "line": 15,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "undefined",
+      "start": 345,
+      "end": 354,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 17
+        },
+        "end": {
+          "line": 15,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 355,
+      "end": 356,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 27
+        },
+        "end": {
+          "line": 15,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "Required",
+      "start": 357,
+      "end": 367,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 29
+        },
+        "end": {
+          "line": 15,
+          "column": 39
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 368,
+      "end": 369,
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 0
+        },
+        "end": {
+          "line": 16,
+          "column": 1
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * Returns error message if value is not a valid email, otherwise returns\n * undefined\n * @param {String} value - Email to validate\n * @example Basic\n * <Field\n *   name=\"email\"\n *   component={TextField}\n *   label=\"Email\"\n *   validate={validateEmail}\n * />\n ",
+      "start": 371,
+      "end": 638,
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 0
+        },
+        "end": {
+          "line": 29,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "export",
+      "start": 639,
+      "end": 645,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 0
+        },
+        "end": {
+          "line": 30,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "function",
+        "keyword": "function",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "function",
+      "start": 646,
+      "end": 654,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 7
+        },
+        "end": {
+          "line": 30,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "validateEmail",
+      "start": 655,
+      "end": 668,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 16
+        },
+        "end": {
+          "line": 30,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 669,
+      "end": 670,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 30
+        },
+        "end": {
+          "line": 30,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "value",
+      "start": 670,
+      "end": 675,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 31
+        },
+        "end": {
+          "line": 30,
+          "column": 36
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 675,
+      "end": 676,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 36
+        },
+        "end": {
+          "line": 30,
+          "column": 37
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 677,
+      "end": 678,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 38
+        },
+        "end": {
+          "line": 30,
+          "column": 39
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "return",
+        "keyword": "return",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "return",
+      "start": 681,
+      "end": 687,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 2
+        },
+        "end": {
+          "line": 31,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "value",
+      "start": 688,
+      "end": 693,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 9
+        },
+        "end": {
+          "line": 31,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "&&",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": 2,
+        "updateContext": null
+      },
+      "value": "&&",
+      "start": 694,
+      "end": 696,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 15
+        },
+        "end": {
+          "line": 31,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "prefix",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": true,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "!",
+      "start": 697,
+      "end": 698,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 18
+        },
+        "end": {
+          "line": 31,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "regexp",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": {
+        "pattern": "^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,4}$",
+        "flags": "i"
+      },
+      "start": 698,
+      "end": 741,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 19
+        },
+        "end": {
+          "line": 31,
+          "column": 62
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 741,
+      "end": 742,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 62
+        },
+        "end": {
+          "line": 31,
+          "column": 63
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "test",
+      "start": 742,
+      "end": 746,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 63
+        },
+        "end": {
+          "line": 31,
+          "column": 67
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 746,
+      "end": 747,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 67
+        },
+        "end": {
+          "line": 31,
+          "column": 68
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "value",
+      "start": 747,
+      "end": 752,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 68
+        },
+        "end": {
+          "line": 31,
+          "column": 73
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 752,
+      "end": 753,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 73
+        },
+        "end": {
+          "line": 31,
+          "column": 74
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "?",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 758,
+      "end": 759,
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 4
+        },
+        "end": {
+          "line": 32,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "Invalid email address",
+      "start": 760,
+      "end": 783,
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 6
+        },
+        "end": {
+          "line": 32,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 788,
+      "end": 789,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 4
+        },
+        "end": {
+          "line": 33,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "undefined",
+      "start": 790,
+      "end": 799,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 6
+        },
+        "end": {
+          "line": 33,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 800,
+      "end": 801,
+      "loc": {
+        "start": {
+          "line": 34,
+          "column": 0
+        },
+        "end": {
+          "line": 34,
+          "column": 1
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "eof",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 802,
+      "end": 802,
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 0
+        },
+        "end": {
+          "line": 35,
+          "column": 0
+        }
+      }
+    }
+  ]
+}
