@@ -152,7 +152,7 @@
     "smooth-scrollbar": "^8.4.0",
     "styled-components": "^4.4.0",
     "styled-theme": "^0.3.3",
-    "swiper": "^5.0.4",
+    "swiper": "^6.5.1",
     "uppy": "0.18.0"
   },
   "devDependencies": {
